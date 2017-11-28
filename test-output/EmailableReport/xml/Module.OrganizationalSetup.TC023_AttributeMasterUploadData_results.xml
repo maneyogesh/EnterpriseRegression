@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Attribute Master"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="107.901">
+  <properties />
+  
+  
+            <testcase name="Data_Upload" time="13.425" classname="Module.OrganizationalSetup.TC023_AttributeMasterUploadData" />
+                <testcase name="Target_Page" time="58.321" classname="Module.OrganizationalSetup.TC023_AttributeMasterUploadData" />
+                <testcase name="Edit_Record" time="27.649" classname="Module.OrganizationalSetup.TC023_AttributeMasterUploadData" />
+                <testcase name="Login" time="1.367" classname="Module.OrganizationalSetup.TC023_AttributeMasterUploadData" />
+                <testcase name="AddNew_Button" time="7.139" classname="Module.OrganizationalSetup.TC023_AttributeMasterUploadData" />
+      
+</testsuite>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Smoke Testing]">
+  <parameter name="browserType" value="firefox"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="leave application(failed)">
+    <classes>
+      <class name="ESS.LeaveandAttendance.LeaveApplication.TC003_LeaveVerify">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="TargetPage"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="VerifyLeave" invocation-numbers="0 1"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- ESS.LeaveandAttendance.LeaveApplication.TC003_LeaveVerify -->
+      <class name="ESS.LeaveandAttendance.LeaveApplication.TC002_LeaveApproval">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="LeaveApproveReject" invocation-numbers="0 1"/>
+          <include name="TargetPage"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- ESS.LeaveandAttendance.LeaveApplication.TC002_LeaveApproval -->
+      <class name="ESS.LeaveandAttendance.LeaveApplication.TC001_ApplyLeave">
+        <methods>
+          <include name="ApplyLeave" invocation-numbers="0 1"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="TargetPage"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- ESS.LeaveandAttendance.LeaveApplication.TC001_ApplyLeave -->
+      <class name="ESS.LeaveandAttendance.LeaveApplication.TC004_LeaveRevoke">
+        <methods>
+          <include name="TargetPage"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="VerifyLeave" invocation-numbers="0"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- ESS.LeaveandAttendance.LeaveApplication.TC004_LeaveRevoke -->
+    </classes>
+  </test> <!-- leave application(failed) -->
+</suite> <!-- Failed suite [Smoke Testing] -->

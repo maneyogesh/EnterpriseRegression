@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Country Master"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="102.147">
+  <properties />
+  
+  
+            <testcase name="Login" time="1.273" classname="Module.RegionalSetup.TC007_CountryMasterUploadData" />
+                <testcase name="Target_Page" time="80.552" classname="Module.RegionalSetup.TC007_CountryMasterUploadData" />
+                <testcase name="Data_Upload" time="8.629" classname="Module.RegionalSetup.TC007_CountryMasterUploadData" />
+                <testcase name="Data_Upload" time="6.153" classname="Module.RegionalSetup.TC007_CountryMasterUploadData" />
+                <testcase name="AddNew_Button" time="5.540" classname="Module.RegionalSetup.TC007_CountryMasterUploadData" />
+      
+</testsuite>

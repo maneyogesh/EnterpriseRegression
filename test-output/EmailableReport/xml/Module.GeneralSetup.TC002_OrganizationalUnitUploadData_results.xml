@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Organizational Unit Master"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="109.062">
+  <properties />
+  
+  
+            <testcase name="Target_Page" time="55.939" classname="Module.GeneralSetup.TC002_OrganizationalUnitUploadData" />
+                <testcase name="Data_Upload" time="22.055" classname="Module.GeneralSetup.TC002_OrganizationalUnitUploadData" />
+                <testcase name="Login" time="1.161" classname="Module.GeneralSetup.TC002_OrganizationalUnitUploadData" />
+                <testcase name="AddNew_Button" time="5.283" classname="Module.GeneralSetup.TC002_OrganizationalUnitUploadData" />
+                <testcase name="Data_Upload" time="24.624" classname="Module.GeneralSetup.TC002_OrganizationalUnitUploadData" />
+      
+</testsuite>

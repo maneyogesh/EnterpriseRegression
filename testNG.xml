@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Regression Suite">
+
+<listeners>
+ <!--  <listener class-name="main.customListner.Listener"></listener> -->  
+<!-- <listener class-name="main.customListner.RetryListener"></listener> -->
+</listeners>
+
+<!-- <test name="HomePageTest">
+<classes>
+<class name="test.homepage.TC002_VerifyRegistration"></class>
+<class name="test.homepage.TC003_VerifyLoginWithDifferentRecords"></class>
+<class name="test.addToCart.TC001_VerifyAaddToCart"></class>
+<class name="test.addToCart.TC002_VerifyFacebookLink"></class>
+</classes>
+</test> -->
+
+<!-- <test name="AddToCartTest">
+<classes>
+<class name="test.addToCart.TC001_VerifyAaddToCart"></class>
+<class name="test.addToCart.TC002_VerifyFacebookLink"></class>
+</classes>
+</test> -->
+
+<!-- <test name="FirefoxTest" >
+   <parameter name="browser" value="firefox" />
+      <classes>
+       <class name="test.addToCart.TC001_VerifyAddToBasket_AutomationPractices"></class>
+       <class name="test.addToCart.VerifyAddProductToCartAndDeleteFromCart"></class>
+
+      </classes>
+   </test> -->
+
+ <test name="ChromeTest">
+   <parameter name="browser" value="chrome" />
+      <classes>
+       <!-- <class name="test.addToCart.TC001_VerifyAddToBasket_AutomationPractices"></class> -->
+       <class name="test.homepage.TC002_VerifyRegistration"></class>
+    
+      </classes>
+   </test> 
+
+</suite>

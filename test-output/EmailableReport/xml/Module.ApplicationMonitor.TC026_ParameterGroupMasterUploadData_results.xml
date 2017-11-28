@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Parameter Group Master"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="1"
+           time="165.452">
+  <properties />
+  
+            <testcase name="Edit_Record" time="0.0" classname="Module.ApplicationMonitor.TC026_ParameterGroupMasterUploadData">
+          <skipped />
+    </testcase>
+  
+            <testcase name="Data_Upload" time="8.935" classname="Module.ApplicationMonitor.TC026_ParameterGroupMasterUploadData" />
+                <testcase name="AddNew_Button" time="10.855" classname="Module.ApplicationMonitor.TC026_ParameterGroupMasterUploadData" />
+                <testcase name="Target_Page" time="129.634" classname="Module.ApplicationMonitor.TC026_ParameterGroupMasterUploadData" />
+                <testcase name="Login" time="1.807" classname="Module.ApplicationMonitor.TC026_ParameterGroupMasterUploadData" />
+                <testcase name="Data_Upload" time="8.384" classname="Module.ApplicationMonitor.TC026_ParameterGroupMasterUploadData" />
+      
+</testsuite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="leave application"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="55.609">
+  <properties />
+  
+  
+            <testcase name="Login" time="5.344" classname="ESS.LeaveandAttendance.LeaveApplication.TC005_OnBehalfLeaveApply" />
+                <testcase name="OnBehalfLeaveApply" time="41.001" classname="ESS.LeaveandAttendance.LeaveApplication.TC005_OnBehalfLeaveApply" />
+                <testcase name="TargetPage" time="9.264" classname="ESS.LeaveandAttendance.LeaveApplication.TC005_OnBehalfLeaveApply" />
+      
+</testsuite>

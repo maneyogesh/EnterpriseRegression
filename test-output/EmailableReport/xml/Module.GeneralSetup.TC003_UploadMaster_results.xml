@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Upload Master"
+           tests="3"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="397.025">
+  <properties />
+            <testcase name="Data_Upload" time="326.085" classname="Module.GeneralSetup.TC003_UploadMaster">
+                <failure type="java.lang.AssertionError"
+                  message="Page crashed : Alert Box Not Present expected [true] but found [false]"
+              >
+<![CDATA[java.lang.AssertionError: Page crashed : Alert Box Not Present expected [true] but found [false]
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.failNotEquals(Assert.java:496)
+  org.testng.Assert.assertTrue(Assert.java:42)
+  pom.ObjectPages.uiActions.UploadMasterRevised.Test_data_upload(UploadMasterRevised.java:98)
+  Module.GeneralSetup.TC003_UploadMaster.Data_Upload(TC003_UploadMaster.java:74)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:773)
+  org.testng.TestRunner.run(TestRunner.java:623)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:391)
+  org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+  java.util.concurrent.FutureTask.run(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="Target_Page" time="69.799" classname="Module.GeneralSetup.TC003_UploadMaster" />
+                <testcase name="Login" time="1.141" classname="Module.GeneralSetup.TC003_UploadMaster" />
+      
+</testsuite>

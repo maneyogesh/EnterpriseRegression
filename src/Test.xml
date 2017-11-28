@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Testing"  >
+        
+ <!--    
+ <listener class-name="main.customListner.Listener"></listener>   
+ <listener class-name="main.customListner.Listeners"></listener>   
+ <listener class-name="main.customListner.RetryListener"></listener>  
+ <listener class-name="main.customListner.WebEventListener"></listener>  
+  -->
+  <listeners>
+ <listener class-name="org.uncommons.reportng.HTMLReporter" />
+ <listener class-name="org.uncommons.reportng.JUnitXMLReporter" /> 
+ </listeners>  
+            
+ <parameter name="browserType" value="firefox"/>
+  <test name="leave application">
+    <classes>
+      <class name="ESS.LeaveandAttendance.LeaveApplication.TC001_ApplyLeave"/>
+        <class name="ESS.LeaveandAttendance.LeaveApplication.TC002_LeaveApproval"/>
+         <class name="ESS.LeaveandAttendance.LeaveApplication.TC003_LeaveVerify"/> 
+         <class name="ESS.LeaveandAttendance.LeaveApplication.TC004_LeaveRevoke"/> 
+         <!-- <class name="ESS.LeaveandAttendance.LeaveApplication.TC005_OnBehalfLeaveApply"/> -->
+       </classes>
+   </test> 
+  
+    </suite> <!-- Suite --> 
+      

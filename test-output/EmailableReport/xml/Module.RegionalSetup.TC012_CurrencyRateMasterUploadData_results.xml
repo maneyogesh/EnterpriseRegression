@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Currency rate Master"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="83.123">
+  <properties />
+  
+  
+            <testcase name="Target_Page" time="59.135" classname="Module.RegionalSetup.TC012_CurrencyRateMasterUploadData" />
+                <testcase name="AddNew_Button" time="3.407" classname="Module.RegionalSetup.TC012_CurrencyRateMasterUploadData" />
+                <testcase name="Data_Upload" time="19.435" classname="Module.RegionalSetup.TC012_CurrencyRateMasterUploadData" />
+                <testcase name="Login" time="1.146" classname="Module.RegionalSetup.TC012_CurrencyRateMasterUploadData" />
+      
+</testsuite>

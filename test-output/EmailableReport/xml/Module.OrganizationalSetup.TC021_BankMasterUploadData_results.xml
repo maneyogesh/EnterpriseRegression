@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Bank Master"
+           tests="5"
+           failures="2"
+           errors="0"
+           skipped="0"
+           time="125.412">
+  <properties />
+            <testcase name="Data_Upload" time="15.301" classname="Module.OrganizationalSetup.TC021_BankMasterUploadData">
+                <failure type="java.lang.AssertionError"
+                  message="Expected : [Record Saved Successfully.] But Found : [Bank Code already exists]"
+              >
+<![CDATA[java.lang.AssertionError: Expected : [Record Saved Successfully.] But Found : [Bank Code already exists]
+  org.testng.Assert.fail(Assert.java:94)
+  Module.OrganizationalSetup.TC021_BankMasterUploadData.Data_Upload(TC021_BankMasterUploadData.java:94)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:773)
+  org.testng.TestRunner.run(TestRunner.java:623)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:391)
+  org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+  java.util.concurrent.FutureTask.run(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="Edit_Record" time="8.359" classname="Module.OrganizationalSetup.TC021_BankMasterUploadData">
+                <failure type="java.lang.AssertionError"
+                  message="expected : [Record Updated Successfully.] but Found : [Please Enter Bank Code .]"
+              >
+<![CDATA[java.lang.AssertionError: expected : [Record Updated Successfully.] but Found : [Please Enter Bank Code .]
+  org.testng.Assert.fail(Assert.java:94)
+  pom.TestBase.CommonMethods.Test_Edit_Record(CommonMethods.java:160)
+  pom.ObjectPages.uiActions.BankMaster.Test_EditRecord(BankMaster.java:127)
+  Module.OrganizationalSetup.TC021_BankMasterUploadData.Edit_Record(TC021_BankMasterUploadData.java:101)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:773)
+  org.testng.TestRunner.run(TestRunner.java:623)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:391)
+  org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+  java.util.concurrent.FutureTask.run(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="AddNew_Button" time="3.358" classname="Module.OrganizationalSetup.TC021_BankMasterUploadData" />
+                <testcase name="Login" time="1.288" classname="Module.OrganizationalSetup.TC021_BankMasterUploadData" />
+                <testcase name="Target_Page" time="97.106" classname="Module.OrganizationalSetup.TC021_BankMasterUploadData" />
+      
+</testsuite>

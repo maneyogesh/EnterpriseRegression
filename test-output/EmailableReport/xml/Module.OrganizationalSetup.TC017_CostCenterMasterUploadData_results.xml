@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cost Center Master"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="5"
+           time="0.215">
+  <properties />
+  
+            <testcase name="Login" time="0.0" classname="Module.OrganizationalSetup.TC017_CostCenterMasterUploadData">
+          <skipped />
+    </testcase>
+            <testcase name="Edit_Record" time="0.0" classname="Module.OrganizationalSetup.TC017_CostCenterMasterUploadData">
+          <skipped />
+    </testcase>
+            <testcase name="AddNew_Button" time="0.0" classname="Module.OrganizationalSetup.TC017_CostCenterMasterUploadData">
+          <skipped />
+    </testcase>
+            <testcase name="Target_Page" time="0.0" classname="Module.OrganizationalSetup.TC017_CostCenterMasterUploadData">
+          <skipped />
+    </testcase>
+            <testcase name="Data_Upload" time="0.0" classname="Module.OrganizationalSetup.TC017_CostCenterMasterUploadData">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

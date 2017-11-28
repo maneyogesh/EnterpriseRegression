@@ -1,0 +1,167 @@
+<html>
+<head>
+<title>TestNG:  Upload Master</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Upload Master</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Nov 16 10:04:26 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>443 seconds (443577 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Module.GeneralSetup.TC003_UploadMaster.Data_Upload()'><b>Data_Upload</b><br>Test class: Module.GeneralSetup.TC003_UploadMaster<br>Parameters: Upload Name, Country Master, ADD, D:\\SVN\\QA-Testing-Doc\\Quality Assurance\\AutomationTestScript\\EnterpriseSetup_Regression\\src\\pom\\UploadMasterEXEFiles\\CountryMaster.exe, y<br/>
+<a href="#Output-8117799" onClick='toggleBox("Output-8117799", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-8117799" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-8117799">
+Completed Executing : TC003_UploadMaster.Data_Upload<br/>
+Test Method Resides : Module.GeneralSetup.TC003_UploadMaster<br/>
+Test Method had the following parameters : nullUpload Name,Country Master,ADD,D:\\SVN\\QA-Testing-Doc\\Quality Assurance\\AutomationTestScript\\EnterpriseSetup_Regression\\src\\pom\\UploadMasterEXEFiles\\CountryMaster.exe,y,<br/>
+Test Status : FAILED<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: Page crashed : Alert Box Not Present expected [true] but found [false]
+	at pom.ObjectPages.uiActions.UploadMasterRevised.Test_data_upload(UploadMasterRevised.java:98)
+	at Module.GeneralSetup.TC003_UploadMaster.Data_Upload(TC003_UploadMaster.java:74)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace8117799", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace8117799'><pre>java.lang.AssertionError: Page crashed : Alert Box Not Present expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at pom.ObjectPages.uiActions.UploadMasterRevised.Test_data_upload(UploadMasterRevised.java:98)
+	at Module.GeneralSetup.TC003_UploadMaster.Data_Upload(TC003_UploadMaster.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:391)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>326</td>
+<td>Module.GeneralSetup.TC003_UploadMaster@2bba4f</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Module.GeneralSetup.TC003_UploadMaster.Login()'><b>Login</b><br>Test class: Module.GeneralSetup.TC003_UploadMaster<br/>
+<a href="#Output-8700237" onClick='toggleBox("Output-8700237", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-8700237" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-8700237">
+Completed Executing : TC003_UploadMaster.Login<br/>
+Test Case Name : Login<br/>
+Test Method Resides : Module.GeneralSetup.TC003_UploadMaster<br/>
+Test Status : PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>Module.GeneralSetup.TC003_UploadMaster@2bba4f</td></tr>
+<tr>
+<td title='Module.GeneralSetup.TC003_UploadMaster.Target_Page()'><b>Target_Page</b><br>Test class: Module.GeneralSetup.TC003_UploadMaster<br/>
+<a href="#Output-9652949" onClick='toggleBox("Output-9652949", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-9652949" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-9652949">
+Target page is open successfully<br/>
+Completed Executing : TC003_UploadMaster.Target_Page<br/>
+Test Case Name : Target_Page<br/>
+Test Method Resides : Module.GeneralSetup.TC003_UploadMaster<br/>
+Test Status : PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>69</td>
+<td>Module.GeneralSetup.TC003_UploadMaster@2bba4f</td></tr>
+</table><p>
+</body>
+</html>

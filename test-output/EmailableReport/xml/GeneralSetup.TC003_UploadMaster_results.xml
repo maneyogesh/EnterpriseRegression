@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Upload Master"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="47.110">
+  <properties />
+  
+  
+            <testcase name="Data_Upload" time="27.393" classname="GeneralSetup.TC003_UploadMaster" />
+                <testcase name="Login" time="8.881" classname="GeneralSetup.TC003_UploadMaster" />
+                <testcase name="Target_Page" time="10.836" classname="GeneralSetup.TC003_UploadMaster" />
+      
+</testsuite>

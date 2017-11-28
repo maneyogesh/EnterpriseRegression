@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Zone Master"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="91.655">
+  <properties />
+  
+  
+            <testcase name="Data_Upload" time="5.667" classname="Module.OrganizationalSetup.TC022_ZoneMasterUploadData" />
+                <testcase name="AddNew_Button" time="6.296" classname="Module.OrganizationalSetup.TC022_ZoneMasterUploadData" />
+                <testcase name="Edit_Record" time="8.358" classname="Module.OrganizationalSetup.TC022_ZoneMasterUploadData" />
+                <testcase name="Login" time="1.455" classname="Module.OrganizationalSetup.TC022_ZoneMasterUploadData" />
+                <testcase name="Target_Page" time="69.879" classname="Module.OrganizationalSetup.TC022_ZoneMasterUploadData" />
+      
+</testsuite>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Basic Salary Range"
+           tests="7"
+           failures="0"
+           errors="0"
+           skipped="4"
+           time="27.291">
+  <properties />
+  
+            <testcase name="verifyRegistration" time="0.0" classname="test.homepage.TC002_VerifyRegistration">
+          <skipped />
+    </testcase>
+            <testcase name="verifyRegistration" time="0.0" classname="test.homepage.TC002_VerifyRegistration">
+          <skipped />
+    </testcase>
+            <testcase name="verifyRegistration" time="0.0" classname="test.homepage.TC002_VerifyRegistration">
+          <skipped />
+    </testcase>
+            <testcase name="verifyRegistration" time="0.0" classname="test.homepage.TC002_VerifyRegistration">
+          <skipped />
+    </testcase>
+  
+            <testcase name="verifyRegistration" time="8.947" classname="test.homepage.TC002_VerifyRegistration" />
+                <testcase name="verifyRegistration" time="9.662" classname="test.homepage.TC002_VerifyRegistration" />
+                <testcase name="verifyRegistration" time="8.643" classname="test.homepage.TC002_VerifyRegistration" />
+      
+</testsuite>

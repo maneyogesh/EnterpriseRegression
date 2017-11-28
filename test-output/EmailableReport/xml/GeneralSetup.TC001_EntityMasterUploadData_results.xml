@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Entity Master"
+           tests="11"
+           failures="0"
+           errors="0"
+           skipped="11"
+           time="0.030">
+  <properties />
+  
+            <testcase name="setUp" time="0.0" classname="GeneralSetup.TC001_EntityMasterUploadData">
+          <skipped />
+    </testcase>
+            <testcase name="beforeMethod" time="0.0" classname="GeneralSetup.TC001_EntityMasterUploadData">
+          <skipped />
+    </testcase>
+            <testcase name="afterMethod" time="0.0" classname="GeneralSetup.TC001_EntityMasterUploadData">
+          <skipped />
+    </testcase>
+            <testcase name="afterMethod" time="0.0" classname="GeneralSetup.TC001_EntityMasterUploadData">
+          <skipped />
+    </testcase>
+            <testcase name="beforeMethod" time="0.0" classname="GeneralSetup.TC001_EntityMasterUploadData">
+          <skipped />
+    </testcase>
+            <testcase name="beforeMethod" time="0.0" classname="GeneralSetup.TC001_EntityMasterUploadData">
+          <skipped />
+    </testcase>
+            <testcase name="afterMethod" time="0.0" classname="GeneralSetup.TC001_EntityMasterUploadData">
+          <skipped />
+    </testcase>
+            <testcase name="Login" time="0.0" classname="GeneralSetup.TC001_EntityMasterUploadData">
+          <skipped />
+    </testcase>
+            <testcase name="Data_Upload" time="0.0" classname="GeneralSetup.TC001_EntityMasterUploadData">
+          <skipped />
+    </testcase>
+            <testcase name="Target_Page" time="0.0" classname="GeneralSetup.TC001_EntityMasterUploadData">
+          <skipped />
+    </testcase>
+            <testcase name="AddNew_Button" time="0.0" classname="GeneralSetup.TC001_EntityMasterUploadData">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

@@ -1,0 +1,397 @@
+2017-07-25 16:43:28 INFO  TestBase:135 - navigating to :-http://192.168.200.3/ERPONEX_NEXGEN_INT_UAT/Login
+2017-07-25 16:43:34 INFO  TC001_VerifyLoginWithInvalidCredentailsToAutoMationPractices:28 - =========== Starting verifyLoginWithInvalidCredentails Test=============
+2017-07-25 17:36:53 INFO  TestBase:135 - navigating to :-http://192.168.200.3/ERPONEX_NEXGEN_INT_UAT/Login
+2017-07-25 17:36:58 INFO  TC001_VerifyLoginWithInvalidCredentailsToAutoMationPractices:28 - =========== Starting verifyLoginWithInvalidCredentails Test=============
+2017-07-25 18:29:09 INFO  TestBase:135 - navigating to :-http://192.168.200.3/ERPONEX_NEXGEN_INT_UAT/Login
+2017-07-25 18:29:14 INFO  TC002_VerifyRegistration:36 - =======started verifyRegistration Test===========
+2017-07-25 18:29:14 INFO  TC002_VerifyRegistration:48 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"PreviewFrame"}
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 85 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'OSO-DTP-057', ip: '192.168.32.33', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\YOGESH~1.MAN\AppData\Local\Temp\scoped_dir4616_29521}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: c176718744b40e23cef881887eacd4ab
+*** Element info: {Using=id, value=PreviewFrame}
+2017-07-25 18:29:14 INFO  HomePage:185 - switched to the default Content
+2017-07-25 18:29:15 INFO  TestBase:286 - browser closed
+2017-07-27 14:27:52 INFO  TestBase:130 - navigating to :-http://192.168.200.3/ERPONEX_NEXGEN_INT_UAT/Login
+2017-07-27 14:27:59 INFO  TC003_VerifyLoginWithDifferentRecords:43 - ============= Strting VerifyLoginWithDifferentRecords Test===========
+2017-07-27 14:28:00 INFO  TC003_VerifyLoginWithDifferentRecords:43 - ============= Strting VerifyLoginWithDifferentRecords Test===========
+2017-07-27 14:28:00 INFO  TC003_VerifyLoginWithDifferentRecords:43 - ============= Strting VerifyLoginWithDifferentRecords Test===========
+2017-07-27 14:35:54 INFO  TestBase:130 - navigating to :-https://192.168.200.3/ERPONEX_INT_UAT/Login.aspx
+2017-07-27 14:36:01 INFO  TC003_VerifyLoginWithDifferentRecords:43 - ============= Strting VerifyLoginWithDifferentRecords Test===========
+2017-07-27 14:36:02 INFO  TC003_VerifyLoginWithDifferentRecords:43 - ============= Strting VerifyLoginWithDifferentRecords Test===========
+2017-07-27 14:36:03 INFO  TC003_VerifyLoginWithDifferentRecords:43 - ============= Strting VerifyLoginWithDifferentRecords Test===========
+2017-07-29 11:37:17 INFO  TestBase:130 - navigating to :-https://192.168.200.3/ERPONEX_INT_UAT/Login.aspx
+2017-07-29 11:37:23 INFO  TC003_VerifyLoginWithDifferentRecords:43 - ============= Strting VerifyLoginWithDifferentRecords Test===========
+2017-07-29 11:37:24 INFO  TC003_VerifyLoginWithDifferentRecords:43 - ============= Strting VerifyLoginWithDifferentRecords Test===========
+2017-07-29 11:37:25 INFO  TC003_VerifyLoginWithDifferentRecords:43 - ============= Strting VerifyLoginWithDifferentRecords Test===========
+2017-07-29 12:06:10 INFO  TestBase:130 - navigating to :-https://192.168.200.3/ERPONEX_INT_UAT/Login.aspx
+2017-07-29 12:06:15 INFO  TC002_VerifyRegistration:32 - =======started verifyRegistration Test===========
+2017-07-29 12:06:15 INFO  TC002_VerifyRegistration:44 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"PreviewFrame"}
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 75 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'OSO-DTP-057', ip: '192.168.32.33', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\YOGESH~1.MAN\AppData\Local\Temp\scoped_dir4916_32255}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 10a44c93c3eafb55ed6ee2486645831f
+*** Element info: {Using=id, value=PreviewFrame}
+2017-07-29 12:06:15 INFO  HomePage:181 - switched to the default Content
+2017-07-29 12:06:17 INFO  TestBase:281 - browser closed
+2017-07-29 12:13:10 INFO  TestBase:130 - navigating to :-https://192.168.200.3/ERPONEX_INT_UAT/Login.aspx
+2017-07-29 12:13:14 INFO  TC002_VerifyRegistration:32 - =======started verifyRegistration Test===========
+2017-07-29 12:13:15 INFO  TC002_VerifyRegistration:44 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"PreviewFrame"}
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 92 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'OSO-DTP-057', ip: '192.168.32.33', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\YOGESH~1.MAN\AppData\Local\Temp\scoped_dir4828_7981}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: d673699a5c0f6b074404a87e2faf7cad
+*** Element info: {Using=id, value=PreviewFrame}
+2017-07-29 12:13:15 INFO  HomePage:181 - switched to the default Content
+2017-07-29 12:13:16 INFO  TestBase:281 - browser closed
+2017-07-29 12:24:59 INFO  TestBase:130 - navigating to :-https://192.168.200.3/ERPONEX_INT_UAT/Login.aspx
+2017-07-29 12:25:04 INFO  TC002_VerifyRegistration:32 - =======started verifyRegistration Test===========
+2017-07-29 12:25:04 INFO  TC002_VerifyRegistration:44 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"PreviewFrame"}
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 151 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'OSO-DTP-057', ip: '192.168.32.33', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\YOGESH~1.MAN\AppData\Local\Temp\scoped_dir4544_20026}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: d55df9e9778de558e1e8cd3d2b168eac
+*** Element info: {Using=id, value=PreviewFrame}
+2017-07-29 12:25:04 INFO  HomePage:181 - switched to the default Content
+2017-07-29 12:25:06 INFO  TestBase:281 - browser closed
+2017-07-29 12:49:20 INFO  TestBase:130 - navigating to :-https://192.168.200.3/ERPONEX_INT_UAT/Login.aspx
+2017-07-29 12:49:29 INFO  TC002_VerifyRegistration:32 - =======started verifyRegistration Test===========
+2017-07-29 12:49:29 INFO  TC002_VerifyRegistration:44 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"PreviewFrame"}
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 82 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'OSO-DTP-057', ip: '192.168.32.33', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\YOGESH~1.MAN\AppData\Local\Temp\scoped_dir6788_28695}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 04abb8060db1990583ee12ef5b0c35ab
+*** Element info: {Using=id, value=PreviewFrame}
+2017-07-29 12:49:30 INFO  HomePage:181 - switched to the default Content
+2017-07-29 12:49:31 INFO  TestBase:281 - browser closed
+2017-07-29 13:03:56 INFO  TestBase:130 - navigating to :-https://192.168.200.3/ERPONEX_INT_UAT/Login.aspx
+2017-07-29 13:04:00 INFO  TC002_VerifyRegistration:32 - =======started verifyRegistration Test===========
+2017-07-29 13:04:01 INFO  TC002_VerifyRegistration:44 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"PreviewFrame"}
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 70 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'OSO-DTP-057', ip: '192.168.32.33', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\YOGESH~1.MAN\AppData\Local\Temp\scoped_dir6516_1672}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: d3bbee7273d590153aab82b9d5c59b07
+*** Element info: {Using=id, value=PreviewFrame}
+2017-07-29 13:04:01 INFO  HomePage:181 - switched to the default Content
+2017-07-29 13:04:02 INFO  TestBase:281 - browser closed
+2017-07-29 13:05:19 INFO  TestBase:130 - navigating to :-https://192.168.200.3/ERPONEX_INT_UAT/Login.aspx
+2017-07-29 13:05:23 INFO  TC002_VerifyRegistration:32 - =======started verifyRegistration Test===========
+2017-07-29 13:05:23 INFO  TC002_VerifyRegistration:44 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"PreviewFrame"}
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 79 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'OSO-DTP-057', ip: '192.168.32.33', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\YOGESH~1.MAN\AppData\Local\Temp\scoped_dir8504_5770}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: dc583339feb131955484513f728f5653
+*** Element info: {Using=id, value=PreviewFrame}
+2017-07-29 13:05:23 INFO  HomePage:181 - switched to the default Content
+2017-07-29 13:05:25 INFO  TestBase:281 - browser closed
+2017-07-29 13:07:21 INFO  TestBase:130 - navigating to :-https://192.168.200.3/ERPONEX_INT_UAT/Login.aspx
+2017-07-29 13:07:25 INFO  TC002_VerifyRegistration:32 - =======started verifyRegistration Test===========
+2017-07-29 13:07:26 INFO  TC002_VerifyRegistration:44 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"PreviewFrame"}
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 80 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'OSO-DTP-057', ip: '192.168.32.33', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\YOGESH~1.MAN\AppData\Local\Temp\scoped_dir8604_23322}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 89393616f0818f624226d642a449a4c1
+*** Element info: {Using=id, value=PreviewFrame}
+2017-07-29 13:07:26 INFO  HomePage:181 - switched to the default Content
+2017-07-29 13:07:27 INFO  TestBase:281 - browser closed
+2017-07-31 13:55:53 INFO  TestBase:130 - navigating to :-https://192.168.200.3/ERPONEX_INT_UAT/Login.aspx
+2017-07-31 13:55:58 INFO  TC002_VerifyRegistration:32 - =======started verifyRegistration Test===========
+2017-07-31 13:55:58 INFO  TC002_VerifyRegistration:44 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"PreviewFrame"}
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 108 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'OSO-DTP-057', ip: '192.168.32.33', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\YOGESH~1.MAN\AppData\Local\Temp\scoped_dir2708_10628}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: ee9df38cc71a8425d53f3acd3fa7b546
+*** Element info: {Using=id, value=PreviewFrame}
+2017-07-31 13:55:58 INFO  HomePage:181 - switched to the default Content
+2017-07-31 13:56:00 INFO  TestBase:281 - browser closed
+2017-07-31 15:02:10 INFO  TestBase:130 - navigating to :-https://192.168.200.3/ERPONEX_INT_UAT/Login.aspx
+2017-07-31 15:02:15 INFO  TestBase:289 - browser closed
+2017-07-31 15:03:27 INFO  TestBase:130 - navigating to :-https://192.168.200.3/ERPONEX_INT_UAT/Login.aspx
+2017-07-31 15:03:32 INFO  TestBase:289 - browser closed
+2017-07-31 15:04:48 INFO  TestBase:130 - navigating to :-https://192.168.200.3/ERPONEX_INT_UAT/Login.aspx
+2017-07-31 15:04:52 INFO  TC002_VerifyRegistration:32 - =======started verifyRegistration Test===========
+2017-07-31 15:04:52 INFO  TC002_VerifyRegistration:44 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"PreviewFrame"}
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 107 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'OSO-DTP-057', ip: '192.168.32.33', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\YOGESH~1.MAN\AppData\Local\Temp\scoped_dir10224_23639}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: b3f5a7045979af1f3f6b0f4eac5b6f28
+*** Element info: {Using=id, value=PreviewFrame}
+2017-07-31 15:04:52 INFO  HomePage:181 - switched to the default Content
+2017-07-31 15:04:54 INFO  TestBase:289 - browser closed
+2017-07-31 15:07:39 INFO  TestBase:130 - navigating to :-https://192.168.200.3/ERPONEX_INT_UAT/Login.aspx
+2017-07-31 15:07:44 INFO  TC002_VerifyRegistration:32 - =======started verifyRegistration Test===========
+2017-07-31 15:07:44 INFO  TC002_VerifyRegistration:44 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"PreviewFrame"}
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 105 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'OSO-DTP-057', ip: '192.168.32.33', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\YOGESH~1.MAN\AppData\Local\Temp\scoped_dir8292_11345}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 0f1853ac9b5ee5a5b3cb5dc76a017c70
+*** Element info: {Using=id, value=PreviewFrame}
+2017-07-31 15:07:44 INFO  HomePage:181 - switched to the default Content
+2017-07-31 15:07:46 INFO  TestBase:289 - browser closed
+2017-07-31 15:10:00 INFO  TestBase:130 - navigating to :-https://192.168.200.3/ERPONEX_INT_UAT/Login.aspx
+2017-07-31 15:10:04 INFO  TC002_VerifyRegistration:32 - =======started verifyRegistration Test===========
+2017-07-31 15:10:04 INFO  TC002_VerifyRegistration:44 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"PreviewFrame"}
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 73 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'OSO-DTP-057', ip: '192.168.32.33', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\YOGESH~1.MAN\AppData\Local\Temp\scoped_dir11596_26049}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: ac99b49f2922fd901848b6eb6c8e2485
+*** Element info: {Using=id, value=PreviewFrame}
+2017-07-31 15:10:04 INFO  HomePage:181 - switched to the default Content
+2017-07-31 15:10:05 INFO  TestBase:289 - browser closed
+2017-07-31 15:34:05 INFO  TestBase:130 - navigating to :-https://192.168.200.3/ERPONEX_INT_UAT/Login.aspx
+2017-07-31 15:34:09 INFO  TC002_VerifyRegistration:32 - =======started verifyRegistration Test===========
+2017-07-31 15:34:10 INFO  TC002_VerifyRegistration:44 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"PreviewFrame"}
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 87 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'OSO-DTP-057', ip: '192.168.32.33', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\YOGESH~1.MAN\AppData\Local\Temp\scoped_dir9712_28638}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 83b48e6a5474b12d410d87953195aaf8
+*** Element info: {Using=id, value=PreviewFrame}
+2017-07-31 15:34:10 INFO  HomePage:181 - switched to the default Content
+2017-07-31 15:34:11 INFO  TestBase:294 - browser closed
+2017-07-31 15:55:42 INFO  TestBase:130 - navigating to :-https://192.168.200.3/ERPONEX_INT_UAT/Login.aspx
+2017-07-31 15:55:46 INFO  TC002_VerifyRegistration:32 - =======started verifyRegistration Test===========
+2017-07-31 15:55:46 INFO  TC002_VerifyRegistration:44 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"PreviewFrame"}
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 99 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'OSO-DTP-057', ip: '192.168.32.33', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\YOGESH~1.MAN\AppData\Local\Temp\scoped_dir9824_21060}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 73ce167dd1ec4ceec2d347fa9c05a26c
+*** Element info: {Using=id, value=PreviewFrame}
+2017-07-31 15:55:46 INFO  HomePage:181 - switched to the default Content
+2017-07-31 15:55:48 INFO  TestBase:295 - browser closed
+2017-07-31 16:36:04 INFO  TestBase:130 - navigating to :-https://192.168.200.3/ERPONEX_INT_UAT/Login.aspx
+2017-07-31 16:36:08 INFO  TC002_VerifyRegistration:32 - =======started verifyRegistration Test===========
+2017-07-31 16:36:08 INFO  TC002_VerifyRegistration:44 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"PreviewFrame"}
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 87 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'OSO-DTP-057', ip: '192.168.32.33', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\YOGESH~1.MAN\AppData\Local\Temp\scoped_dir10832_26486}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: a3ddf5e6e9ac64ca36e68c7549c85af4
+*** Element info: {Using=id, value=PreviewFrame}
+2017-07-31 16:36:08 INFO  HomePage:181 - switched to the default Content
+2017-07-31 16:36:10 INFO  TestBase:281 - browser closed
+2017-08-01 15:01:46 INFO  TestBase:130 - navigating to :-https://192.168.200.3/ERPONEX_INT_UAT/Login.aspx
+2017-08-01 15:01:50 INFO  TC002_VerifyRegistration:32 - =======started verifyRegistration Test===========
+2017-08-01 15:01:50 INFO  TC002_VerifyRegistration:44 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"PreviewFrame"}
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 83 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'OSO-DTP-057', ip: '192.168.32.33', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\YOGESH~1.MAN\AppData\Local\Temp\scoped_dir7776_12090}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: f9bd01a2d54e82bef32fd506f89492a9
+*** Element info: {Using=id, value=PreviewFrame}
+2017-08-01 15:01:50 INFO  HomePage:181 - switched to the default Content
+2017-08-01 15:01:51 INFO  TestBase:281 - browser closed
+2017-08-01 15:06:17 INFO  TestBase:130 - navigating to :-https://192.168.200.3/ERPONEX_INT_UAT/Login.aspx
+2017-08-01 15:06:21 INFO  TC002_VerifyRegistration:32 - =======started verifyRegistration Test===========
+2017-08-01 15:06:21 INFO  TC002_VerifyRegistration:44 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"PreviewFrame"}
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 92 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'OSO-DTP-057', ip: '192.168.32.33', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\YOGESH~1.MAN\AppData\Local\Temp\scoped_dir7036_22966}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 6e10e63df9c268b3762febc8d6c86ffa
+*** Element info: {Using=id, value=PreviewFrame}
+2017-08-01 15:06:21 INFO  HomePage:181 - switched to the default Content
+2017-08-01 15:06:23 INFO  TestBase:283 - browser closed
+2017-08-01 17:04:49 INFO  TestBase:130 - navigating to :-https://192.168.200.3/ERPONEX_INT_UAT/Login.aspx
+2017-08-01 17:04:53 INFO  TC002_VerifyRegistration:32 - =======started verifyRegistration Test===========
+2017-08-01 17:04:53 INFO  TC002_VerifyRegistration:44 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"PreviewFrame"}
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 85 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'OSO-DTP-057', ip: '192.168.32.33', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\YOGESH~1.MAN\AppData\Local\Temp\scoped_dir4368_14693}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 521e1c102b9e2e5c78ddcf99c9dd16bd
+*** Element info: {Using=id, value=PreviewFrame}
+2017-08-01 17:04:53 INFO  HomePage:181 - switched to the default Content
+2017-08-01 17:04:55 INFO  TestBase:283 - browser closed
+2017-08-01 17:18:45 INFO  TestBase:130 - navigating to :-https://192.168.200.3/ERPONEX_INT_UAT/Login.aspx
+2017-08-01 17:18:50 INFO  TC002_VerifyRegistration:49 - =======started verifyRegistration Test===========
+2017-08-01 17:18:50 INFO  TC002_VerifyRegistration:61 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"PreviewFrame"}
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 71 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'OSO-DTP-057', ip: '192.168.32.33', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\YOGESH~1.MAN\AppData\Local\Temp\scoped_dir8028_12921}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: e3166131164377be6311bd89b3fa89c1
+*** Element info: {Using=id, value=PreviewFrame}
+2017-08-01 17:18:50 INFO  HomePage:181 - switched to the default Content
+2017-08-01 17:18:52 INFO  TestBase:283 - browser closed
+2017-08-01 17:19:54 INFO  TestBase:130 - navigating to :-https://192.168.200.3/ERPONEX_INT_UAT/Login.aspx
+2017-08-01 17:19:59 INFO  TC002_VerifyRegistration:49 - =======started verifyRegistration Test===========
+2017-08-01 17:19:59 INFO  TC002_VerifyRegistration:61 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"PreviewFrame"}
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 96 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'OSO-DTP-057', ip: '192.168.32.33', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\YOGESH~1.MAN\AppData\Local\Temp\scoped_dir8188_4133}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 642d5a7b02357d90d5cbc2479fb45921
+*** Element info: {Using=id, value=PreviewFrame}
+2017-08-01 17:19:59 INFO  HomePage:181 - switched to the default Content
+2017-08-01 17:20:01 INFO  TestBase:283 - browser closed
+2017-08-01 17:21:33 INFO  TestBase:130 - navigating to :-https://192.168.200.3/ERPONEX_INT_UAT/Login.aspx
+2017-08-01 17:21:37 INFO  TestBase:283 - browser closed
+2017-08-01 17:22:24 INFO  TestBase:130 - navigating to :-https://192.168.200.3/ERPONEX_INT_UAT/Login.aspx
+2017-08-01 17:22:28 INFO  TC002_VerifyRegistration:49 - =======started verifyRegistration Test===========
+2017-08-01 17:22:29 INFO  TC002_VerifyRegistration:61 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"PreviewFrame"}
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 72 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'OSO-DTP-057', ip: '192.168.32.33', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\YOGESH~1.MAN\AppData\Local\Temp\scoped_dir5772_1581}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: e91433bfc5f8fbb1c5ceb80b0da03102
+*** Element info: {Using=id, value=PreviewFrame}
+2017-08-01 17:22:29 INFO  HomePage:181 - switched to the default Content
+2017-08-01 17:22:30 INFO  TestBase:283 - browser closed
+2017-08-01 17:37:01 INFO  TestBase:130 - navigating to :-https://192.168.200.3/ERPONEX_INT_UAT/Login.aspx
+2017-08-01 17:37:06 INFO  TC002_VerifyRegistration:49 - =======started verifyRegistration Test===========
+2017-08-01 17:37:06 INFO  TC002_VerifyRegistration:61 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"PreviewFrame"}
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 98 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'OSO-DTP-057', ip: '192.168.32.33', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\YOGESH~1.MAN\AppData\Local\Temp\scoped_dir2692_7885}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 353e681b6b717a3fb867658fc1d936af
+*** Element info: {Using=id, value=PreviewFrame}
+2017-08-01 17:37:06 INFO  HomePage:181 - switched to the default Content
+2017-08-01 17:37:08 INFO  TestBase:283 - browser closed
+2017-08-01 17:46:13 INFO  TestBase:132 - navigating to :-https://192.168.200.3/ERPONEX_INT_UAT/Login.aspx
+2017-08-01 17:46:17 INFO  TC002_VerifyRegistration:49 - =======started verifyRegistration Test===========
+2017-08-01 17:46:17 INFO  TC002_VerifyRegistration:61 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"PreviewFrame"}
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 82 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'OSO-DTP-057', ip: '192.168.32.33', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\YOGESH~1.MAN\AppData\Local\Temp\scoped_dir6760_315}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 9e1b01aaefc12817381257393808d52c
+*** Element info: {Using=id, value=PreviewFrame}
+2017-08-01 17:46:17 INFO  HomePage:181 - switched to the default Content
+2017-08-01 17:46:19 INFO  TestBase:291 - browser closed
+2017-08-03 15:24:07 INFO  TestBase:217 - navigating to :-https://192.168.200.3/ERPONEX_INT_UAT/Login.aspx
+2017-08-03 15:24:12 INFO  TC002_VerifyRegistration:53 - =======started verifyRegistration Test===========
+2017-08-03 15:24:12 INFO  TC002_VerifyRegistration:67 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"PreviewFrame"}
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 96 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'OSO-DTP-057', ip: '192.168.32.34', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\YOGESH~1.MAN\AppData\Local\Temp\scoped_dir8016_8021}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: f84599ef6ae12338473716c132f77392
+*** Element info: {Using=id, value=PreviewFrame}
+2017-08-03 15:24:12 INFO  HomePage:181 - switched to the default Content
+2017-08-03 15:24:14 INFO  TestBase:373 - browser closed
+2017-08-03 15:26:20 INFO  TestBase:217 - navigating to :-https://192.168.200.3/ERPONEX_INT_UAT/Login.aspx
+2017-08-03 15:26:24 INFO  TC002_VerifyRegistration:53 - =======started verifyRegistration Test===========
+2017-08-03 15:26:25 INFO  TC002_VerifyRegistration:67 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"PreviewFrame"}
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 135 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'OSO-DTP-057', ip: '192.168.32.34', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\YOGESH~1.MAN\AppData\Local\Temp\scoped_dir3584_157}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: f971470e7891ec6ff9e7dd87dfbb611d
+*** Element info: {Using=id, value=PreviewFrame}
+2017-08-03 15:26:25 INFO  HomePage:181 - switched to the default Content
+2017-08-03 15:26:27 INFO  TestBase:373 - browser closed

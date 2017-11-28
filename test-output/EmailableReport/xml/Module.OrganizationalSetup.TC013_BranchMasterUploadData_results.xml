@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Branch Master"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="103.972">
+  <properties />
+  
+  
+            <testcase name="Login" time="1.288" classname="Module.OrganizationalSetup.TC013_BranchMasterUploadData" />
+                <testcase name="Data_Upload" time="22.243" classname="Module.OrganizationalSetup.TC013_BranchMasterUploadData" />
+                <testcase name="Data_Upload" time="19.599" classname="Module.OrganizationalSetup.TC013_BranchMasterUploadData" />
+                <testcase name="Target_Page" time="57.361" classname="Module.OrganizationalSetup.TC013_BranchMasterUploadData" />
+                <testcase name="AddNew_Button" time="3.481" classname="Module.OrganizationalSetup.TC013_BranchMasterUploadData" />
+      
+</testsuite>

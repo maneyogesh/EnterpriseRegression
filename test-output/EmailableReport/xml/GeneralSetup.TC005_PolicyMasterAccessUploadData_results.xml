@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Policy Master Access"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="4"
+           time="1.168">
+  <properties />
+  
+            <testcase name="Target_Page" time="0.0" classname="GeneralSetup.TC005_PolicyMasterAccessUploadData">
+          <skipped />
+    </testcase>
+            <testcase name="Login" time="0.0" classname="GeneralSetup.TC005_PolicyMasterAccessUploadData">
+          <skipped />
+    </testcase>
+            <testcase name="AddNew_Button" time="0.0" classname="GeneralSetup.TC005_PolicyMasterAccessUploadData">
+          <skipped />
+    </testcase>
+            <testcase name="Data_Upload" time="0.0" classname="GeneralSetup.TC005_PolicyMasterAccessUploadData">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

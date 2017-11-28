@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Policy Master"
+           tests="4"
+           failures="1"
+           errors="0"
+           skipped="2"
+           time="85.062">
+  <properties />
+            <testcase name="Target_Page" time="83.786" classname="Module.GeneralSetup.TC004_PolicyMasterUploadData">
+                <failure type="java.lang.AssertionError"
+                  message="Expected Value : [Policy Master - Page Header] But Found : [Page Crashed]"
+              >
+<![CDATA[java.lang.AssertionError: Expected Value : [Policy Master - Page Header] But Found : [Page Crashed]
+  org.testng.Assert.fail(Assert.java:94)
+  pom.TestBase.CommonMethods.TargetPageEnterpriseSetup(CommonMethods.java:94)
+  pom.ObjectPages.uiActions.PolicyMaster.Test_Open_Target_Page(PolicyMaster.java:73)
+  Module.GeneralSetup.TC004_PolicyMasterUploadData.Target_Page(TC004_PolicyMasterUploadData.java:64)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:773)
+  org.testng.TestRunner.run(TestRunner.java:623)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:391)
+  org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+  java.util.concurrent.FutureTask.run(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+  
+            <testcase name="AddNew_Button" time="0.0" classname="Module.GeneralSetup.TC004_PolicyMasterUploadData">
+          <skipped />
+    </testcase>
+            <testcase name="Data_Upload" time="0.0" classname="Module.GeneralSetup.TC004_PolicyMasterUploadData">
+          <skipped />
+    </testcase>
+  
+            <testcase name="Login" time="1.276" classname="Module.GeneralSetup.TC004_PolicyMasterUploadData" />
+      
+</testsuite>

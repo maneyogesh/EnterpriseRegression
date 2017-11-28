@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Band Master"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="107.877">
+  <properties />
+  
+  
+            <testcase name="Target_Page" time="58.096" classname="Module.OrganizationalSetup.TC020_BandMasterUploadData" />
+                <testcase name="Data_Upload" time="15.688" classname="Module.OrganizationalSetup.TC020_BandMasterUploadData" />
+                <testcase name="Edit_Record" time="10.589" classname="Module.OrganizationalSetup.TC020_BandMasterUploadData" />
+                <testcase name="Login" time="1.287" classname="Module.OrganizationalSetup.TC020_BandMasterUploadData" />
+                <testcase name="Data_Upload" time="18.532" classname="Module.OrganizationalSetup.TC020_BandMasterUploadData" />
+                <testcase name="AddNew_Button" time="3.685" classname="Module.OrganizationalSetup.TC020_BandMasterUploadData" />
+      
+</testsuite>

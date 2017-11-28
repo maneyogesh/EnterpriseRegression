@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Entity Master"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="182.440">
+  <properties />
+  
+  
+            <testcase name="Target_Page" time="164.936" classname="Module.GeneralSetup.TC001_EntityMasterUploadData" />
+                <testcase name="Data_Upload" time="10.832" classname="Module.GeneralSetup.TC001_EntityMasterUploadData" />
+                <testcase name="Login" time="1.408" classname="Module.GeneralSetup.TC001_EntityMasterUploadData" />
+                <testcase name="AddNew_Button" time="5.264" classname="Module.GeneralSetup.TC001_EntityMasterUploadData" />
+      
+</testsuite>

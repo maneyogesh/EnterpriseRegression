@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Poll Quiz Setup"
+           tests="5"
+           failures="1"
+           errors="0"
+           skipped="1"
+           time="247.486">
+  <properties />
+            <testcase name="Poll_Quiz_Setup_Data_Upload" time="108.342" classname="Module.GeneralSetup.TC006_PollQuizSetupUploadData">
+                <failure type="org.openqa.selenium.NoAlertPresentException"
+                  message="No alert is present (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.16 seconds
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd&apos;, time: &apos;2015-10-09 19:55:52&apos;
+System info: host: &apos;OSO-DTP-057&apos;, ip: &apos;192.168.32.37&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=36.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9a0813ef-e122-4691-b77a-ab7581bb39ea"
+              >
+<![CDATA[org.openqa.selenium.NoAlertPresentException: No alert is present (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.16 seconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'OSO-DTP-057', ip: '192.168.32.37', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=36.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9a0813ef-e122-4691-b77a-ab7581bb39ea
+  sun.reflect.GeneratedConstructorAccessor54.newInstance(Unknown Source)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+  java.lang.reflect.Constructor.newInstance(Unknown Source)
+  org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+  org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:670)
+  org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1007)
+  pom.TestBase.BaseClass.AlertBoxText(BaseClass.java:249)
+  pom.ObjectPages.uiActions.PollQuizSetup.Test_AddNewDataUpload(PollQuizSetup.java:134)
+  Module.GeneralSetup.TC006_PollQuizSetupUploadData.Poll_Quiz_Setup_Data_Upload(TC006_PollQuizSetupUploadData.java:78)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:773)
+  org.testng.TestRunner.run(TestRunner.java:623)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:391)
+  org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+  java.util.concurrent.FutureTask.run(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+  
+            <testcase name="Poll_Quiz_Setup_Data_Upload" time="0.0" classname="Module.GeneralSetup.TC006_PollQuizSetupUploadData">
+          <skipped />
+    </testcase>
+  
+            <testcase name="AddNew_Button" time="50.872" classname="Module.GeneralSetup.TC006_PollQuizSetupUploadData" />
+                <testcase name="Login" time="1.339" classname="Module.GeneralSetup.TC006_PollQuizSetupUploadData" />
+                <testcase name="Target_Page" time="56.669" classname="Module.GeneralSetup.TC006_PollQuizSetupUploadData" />
+      
+</testsuite>

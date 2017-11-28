@@ -1,0 +1,3523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Regression Testing]" parallel="tests">
+  <parameter name="browserType" value="firefox"/>
+  <listeners>
+    <listener class-name="pom.CustomListner.Listener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Upload Master(failed)" parallel="tests">
+    <classes>
+      <class name="Module.GeneralSetup.TC003_UploadMaster">
+        <methods>
+          <include name="Target_Page"/>
+          <include name="afterMethod"/>
+          <include name="Data_Upload" invocation-numbers="0"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC003_UploadMaster -->
+      <class name="Module.RegionalSetup.TC011_CurrencyMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC011_CurrencyMasterUploadData -->
+      <class name="Module.GeneralSetup.TC001_EntityMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC001_EntityMasterUploadData -->
+      <class name="Module.RegionalSetup.TC008_StateMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC008_StateMasterUploadData -->
+      <class name="Module.RegionalSetup.TC009_CityMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC009_CityMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC025_PositionMappingUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC025_PositionMappingUploadData -->
+      <class name="Module.OrganizationalSetup.TC024_DeviceMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC024_DeviceMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC019_LevelMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC019_LevelMasterUploadData -->
+      <class name="Module.ApplicationMonitor.TC027_ApplicationUsageUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.ApplicationMonitor.TC027_ApplicationUsageUploadData -->
+      <class name="Module.RegionalSetup.TC007_CountryMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC007_CountryMasterUploadData -->
+      <class name="Module.GeneralSetup.TC006_PollQuizSetupUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC006_PollQuizSetupUploadData -->
+      <class name="Module.OrganizationalSetup.TC016_SubDepartmentMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC016_SubDepartmentMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC022_ZoneMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC022_ZoneMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC023_AttributeMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC023_AttributeMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC021_BankMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC021_BankMasterUploadData -->
+      <class name="Module.GeneralSetup.TC005_PolicyMasterAccessUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC005_PolicyMasterAccessUploadData -->
+      <class name="Module.GeneralSetup.TC002_OrganizationalUnitUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC002_OrganizationalUnitUploadData -->
+      <class name="Module.OrganizationalSetup.TC014_DivisionMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC014_DivisionMasterUploadData -->
+      <class name="Module.ApplicationMonitor.TC026_ParameterGroupMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.ApplicationMonitor.TC026_ParameterGroupMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC017_CostCenterMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC017_CostCenterMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC013_BranchMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC013_BranchMasterUploadData -->
+      <class name="Module.GeneralSetup.TC004_PolicyMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC004_PolicyMasterUploadData -->
+      <class name="Module.RegionalSetup.TC012_CurrencyRateMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC012_CurrencyRateMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC015_DepartmentMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC015_DepartmentMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC020_BandMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC020_BandMasterUploadData -->
+      <class name="Module.RegionalSetup.TC010_NationalityMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC010_NationalityMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC018_PositionMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC018_PositionMasterUploadData -->
+    </classes>
+  </test> <!-- Upload Master(failed) -->
+  <test name="Policy Master(failed)" parallel="tests">
+    <classes>
+      <class name="Module.GeneralSetup.TC003_UploadMaster">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC003_UploadMaster -->
+      <class name="Module.RegionalSetup.TC011_CurrencyMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC011_CurrencyMasterUploadData -->
+      <class name="Module.GeneralSetup.TC001_EntityMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC001_EntityMasterUploadData -->
+      <class name="Module.RegionalSetup.TC008_StateMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC008_StateMasterUploadData -->
+      <class name="Module.RegionalSetup.TC009_CityMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC009_CityMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC025_PositionMappingUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC025_PositionMappingUploadData -->
+      <class name="Module.OrganizationalSetup.TC024_DeviceMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC024_DeviceMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC019_LevelMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC019_LevelMasterUploadData -->
+      <class name="Module.ApplicationMonitor.TC027_ApplicationUsageUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.ApplicationMonitor.TC027_ApplicationUsageUploadData -->
+      <class name="Module.RegionalSetup.TC007_CountryMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC007_CountryMasterUploadData -->
+      <class name="Module.GeneralSetup.TC006_PollQuizSetupUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC006_PollQuizSetupUploadData -->
+      <class name="Module.OrganizationalSetup.TC016_SubDepartmentMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC016_SubDepartmentMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC022_ZoneMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC022_ZoneMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC023_AttributeMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC023_AttributeMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC021_BankMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC021_BankMasterUploadData -->
+      <class name="Module.GeneralSetup.TC005_PolicyMasterAccessUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC005_PolicyMasterAccessUploadData -->
+      <class name="Module.GeneralSetup.TC002_OrganizationalUnitUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC002_OrganizationalUnitUploadData -->
+      <class name="Module.OrganizationalSetup.TC014_DivisionMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC014_DivisionMasterUploadData -->
+      <class name="Module.ApplicationMonitor.TC026_ParameterGroupMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.ApplicationMonitor.TC026_ParameterGroupMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC017_CostCenterMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC017_CostCenterMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC013_BranchMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC013_BranchMasterUploadData -->
+      <class name="Module.GeneralSetup.TC004_PolicyMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="Login"/>
+          <include name="Target_Page"/>
+          <include name="Data_Upload"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="AddNew_Button"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC004_PolicyMasterUploadData -->
+      <class name="Module.RegionalSetup.TC012_CurrencyRateMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC012_CurrencyRateMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC015_DepartmentMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC015_DepartmentMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC020_BandMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC020_BandMasterUploadData -->
+      <class name="Module.RegionalSetup.TC010_NationalityMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC010_NationalityMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC018_PositionMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC018_PositionMasterUploadData -->
+    </classes>
+  </test> <!-- Policy Master(failed) -->
+  <test name="Poll Quiz Setup(failed)" parallel="tests">
+    <classes>
+      <class name="Module.GeneralSetup.TC003_UploadMaster">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC003_UploadMaster -->
+      <class name="Module.RegionalSetup.TC011_CurrencyMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC011_CurrencyMasterUploadData -->
+      <class name="Module.GeneralSetup.TC001_EntityMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC001_EntityMasterUploadData -->
+      <class name="Module.RegionalSetup.TC008_StateMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC008_StateMasterUploadData -->
+      <class name="Module.RegionalSetup.TC009_CityMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC009_CityMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC025_PositionMappingUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC025_PositionMappingUploadData -->
+      <class name="Module.OrganizationalSetup.TC024_DeviceMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC024_DeviceMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC019_LevelMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC019_LevelMasterUploadData -->
+      <class name="Module.ApplicationMonitor.TC027_ApplicationUsageUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.ApplicationMonitor.TC027_ApplicationUsageUploadData -->
+      <class name="Module.GeneralSetup.TC006_PollQuizSetupUploadData">
+        <methods>
+          <include name="Login"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="AddNew_Button"/>
+          <include name="endTest"/>
+          <include name="Poll_Quiz_Setup_Data_Upload" invocation-numbers="0 1"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="Target_Page"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC006_PollQuizSetupUploadData -->
+      <class name="Module.RegionalSetup.TC007_CountryMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC007_CountryMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC016_SubDepartmentMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC016_SubDepartmentMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC022_ZoneMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC022_ZoneMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC023_AttributeMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC023_AttributeMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC021_BankMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC021_BankMasterUploadData -->
+      <class name="Module.GeneralSetup.TC005_PolicyMasterAccessUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC005_PolicyMasterAccessUploadData -->
+      <class name="Module.GeneralSetup.TC002_OrganizationalUnitUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC002_OrganizationalUnitUploadData -->
+      <class name="Module.OrganizationalSetup.TC014_DivisionMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC014_DivisionMasterUploadData -->
+      <class name="Module.ApplicationMonitor.TC026_ParameterGroupMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.ApplicationMonitor.TC026_ParameterGroupMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC017_CostCenterMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC017_CostCenterMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC013_BranchMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC013_BranchMasterUploadData -->
+      <class name="Module.GeneralSetup.TC004_PolicyMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC004_PolicyMasterUploadData -->
+      <class name="Module.RegionalSetup.TC012_CurrencyRateMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC012_CurrencyRateMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC015_DepartmentMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC015_DepartmentMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC020_BandMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC020_BandMasterUploadData -->
+      <class name="Module.RegionalSetup.TC010_NationalityMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC010_NationalityMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC018_PositionMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC018_PositionMasterUploadData -->
+    </classes>
+  </test> <!-- Poll Quiz Setup(failed) -->
+  <test name="State Master(failed)" parallel="tests">
+    <classes>
+      <class name="Module.GeneralSetup.TC003_UploadMaster">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC003_UploadMaster -->
+      <class name="Module.RegionalSetup.TC011_CurrencyMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC011_CurrencyMasterUploadData -->
+      <class name="Module.GeneralSetup.TC001_EntityMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC001_EntityMasterUploadData -->
+      <class name="Module.RegionalSetup.TC008_StateMasterUploadData">
+        <methods>
+          <include name="AddNew_Button"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="Data_Upload" invocation-numbers="0 1"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC008_StateMasterUploadData -->
+      <class name="Module.RegionalSetup.TC009_CityMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC009_CityMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC025_PositionMappingUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC025_PositionMappingUploadData -->
+      <class name="Module.OrganizationalSetup.TC024_DeviceMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC024_DeviceMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC019_LevelMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC019_LevelMasterUploadData -->
+      <class name="Module.ApplicationMonitor.TC027_ApplicationUsageUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.ApplicationMonitor.TC027_ApplicationUsageUploadData -->
+      <class name="Module.RegionalSetup.TC007_CountryMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC007_CountryMasterUploadData -->
+      <class name="Module.GeneralSetup.TC006_PollQuizSetupUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC006_PollQuizSetupUploadData -->
+      <class name="Module.OrganizationalSetup.TC016_SubDepartmentMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC016_SubDepartmentMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC022_ZoneMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC022_ZoneMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC023_AttributeMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC023_AttributeMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC021_BankMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC021_BankMasterUploadData -->
+      <class name="Module.GeneralSetup.TC005_PolicyMasterAccessUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC005_PolicyMasterAccessUploadData -->
+      <class name="Module.GeneralSetup.TC002_OrganizationalUnitUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC002_OrganizationalUnitUploadData -->
+      <class name="Module.OrganizationalSetup.TC014_DivisionMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC014_DivisionMasterUploadData -->
+      <class name="Module.ApplicationMonitor.TC026_ParameterGroupMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.ApplicationMonitor.TC026_ParameterGroupMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC017_CostCenterMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC017_CostCenterMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC013_BranchMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC013_BranchMasterUploadData -->
+      <class name="Module.GeneralSetup.TC004_PolicyMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC004_PolicyMasterUploadData -->
+      <class name="Module.RegionalSetup.TC012_CurrencyRateMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC012_CurrencyRateMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC015_DepartmentMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC015_DepartmentMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC020_BandMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC020_BandMasterUploadData -->
+      <class name="Module.RegionalSetup.TC010_NationalityMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC010_NationalityMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC018_PositionMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC018_PositionMasterUploadData -->
+    </classes>
+  </test> <!-- State Master(failed) -->
+  <test name="City Master(failed)" parallel="tests">
+    <classes>
+      <class name="Module.GeneralSetup.TC003_UploadMaster">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC003_UploadMaster -->
+      <class name="Module.RegionalSetup.TC011_CurrencyMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC011_CurrencyMasterUploadData -->
+      <class name="Module.GeneralSetup.TC001_EntityMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC001_EntityMasterUploadData -->
+      <class name="Module.RegionalSetup.TC008_StateMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC008_StateMasterUploadData -->
+      <class name="Module.RegionalSetup.TC009_CityMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="Login"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="AddNew_Button"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="Target_Page"/>
+          <include name="Data_Upload" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC009_CityMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC025_PositionMappingUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC025_PositionMappingUploadData -->
+      <class name="Module.OrganizationalSetup.TC024_DeviceMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC024_DeviceMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC019_LevelMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC019_LevelMasterUploadData -->
+      <class name="Module.ApplicationMonitor.TC027_ApplicationUsageUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.ApplicationMonitor.TC027_ApplicationUsageUploadData -->
+      <class name="Module.RegionalSetup.TC007_CountryMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC007_CountryMasterUploadData -->
+      <class name="Module.GeneralSetup.TC006_PollQuizSetupUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC006_PollQuizSetupUploadData -->
+      <class name="Module.OrganizationalSetup.TC016_SubDepartmentMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC016_SubDepartmentMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC022_ZoneMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC022_ZoneMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC023_AttributeMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC023_AttributeMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC021_BankMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC021_BankMasterUploadData -->
+      <class name="Module.GeneralSetup.TC005_PolicyMasterAccessUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC005_PolicyMasterAccessUploadData -->
+      <class name="Module.GeneralSetup.TC002_OrganizationalUnitUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC002_OrganizationalUnitUploadData -->
+      <class name="Module.OrganizationalSetup.TC014_DivisionMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC014_DivisionMasterUploadData -->
+      <class name="Module.ApplicationMonitor.TC026_ParameterGroupMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.ApplicationMonitor.TC026_ParameterGroupMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC017_CostCenterMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC017_CostCenterMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC013_BranchMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC013_BranchMasterUploadData -->
+      <class name="Module.GeneralSetup.TC004_PolicyMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC004_PolicyMasterUploadData -->
+      <class name="Module.RegionalSetup.TC012_CurrencyRateMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC012_CurrencyRateMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC015_DepartmentMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC015_DepartmentMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC020_BandMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC020_BandMasterUploadData -->
+      <class name="Module.RegionalSetup.TC010_NationalityMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC010_NationalityMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC018_PositionMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC018_PositionMasterUploadData -->
+    </classes>
+  </test> <!-- City Master(failed) -->
+  <test name="Nationality Master(failed)" parallel="tests">
+    <classes>
+      <class name="Module.GeneralSetup.TC003_UploadMaster">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC003_UploadMaster -->
+      <class name="Module.RegionalSetup.TC011_CurrencyMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC011_CurrencyMasterUploadData -->
+      <class name="Module.GeneralSetup.TC001_EntityMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC001_EntityMasterUploadData -->
+      <class name="Module.RegionalSetup.TC008_StateMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC008_StateMasterUploadData -->
+      <class name="Module.RegionalSetup.TC009_CityMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC009_CityMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC025_PositionMappingUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC025_PositionMappingUploadData -->
+      <class name="Module.OrganizationalSetup.TC024_DeviceMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC024_DeviceMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC019_LevelMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC019_LevelMasterUploadData -->
+      <class name="Module.ApplicationMonitor.TC027_ApplicationUsageUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.ApplicationMonitor.TC027_ApplicationUsageUploadData -->
+      <class name="Module.RegionalSetup.TC007_CountryMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC007_CountryMasterUploadData -->
+      <class name="Module.GeneralSetup.TC006_PollQuizSetupUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC006_PollQuizSetupUploadData -->
+      <class name="Module.OrganizationalSetup.TC016_SubDepartmentMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC016_SubDepartmentMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC022_ZoneMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC022_ZoneMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC023_AttributeMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC023_AttributeMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC021_BankMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC021_BankMasterUploadData -->
+      <class name="Module.GeneralSetup.TC005_PolicyMasterAccessUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC005_PolicyMasterAccessUploadData -->
+      <class name="Module.GeneralSetup.TC002_OrganizationalUnitUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC002_OrganizationalUnitUploadData -->
+      <class name="Module.OrganizationalSetup.TC014_DivisionMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC014_DivisionMasterUploadData -->
+      <class name="Module.ApplicationMonitor.TC026_ParameterGroupMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.ApplicationMonitor.TC026_ParameterGroupMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC017_CostCenterMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC017_CostCenterMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC013_BranchMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC013_BranchMasterUploadData -->
+      <class name="Module.GeneralSetup.TC004_PolicyMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC004_PolicyMasterUploadData -->
+      <class name="Module.RegionalSetup.TC012_CurrencyRateMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC012_CurrencyRateMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC015_DepartmentMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC015_DepartmentMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC020_BandMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC020_BandMasterUploadData -->
+      <class name="Module.RegionalSetup.TC010_NationalityMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="Data_Upload" invocation-numbers="0"/>
+          <include name="AddNew_Button"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC010_NationalityMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC018_PositionMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC018_PositionMasterUploadData -->
+    </classes>
+  </test> <!-- Nationality Master(failed) -->
+  <test name="Division Master(failed)" parallel="tests">
+    <classes>
+      <class name="Module.GeneralSetup.TC003_UploadMaster">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC003_UploadMaster -->
+      <class name="Module.RegionalSetup.TC011_CurrencyMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC011_CurrencyMasterUploadData -->
+      <class name="Module.GeneralSetup.TC001_EntityMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC001_EntityMasterUploadData -->
+      <class name="Module.RegionalSetup.TC008_StateMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC008_StateMasterUploadData -->
+      <class name="Module.RegionalSetup.TC009_CityMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC009_CityMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC025_PositionMappingUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC025_PositionMappingUploadData -->
+      <class name="Module.OrganizationalSetup.TC024_DeviceMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC024_DeviceMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC019_LevelMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC019_LevelMasterUploadData -->
+      <class name="Module.ApplicationMonitor.TC027_ApplicationUsageUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.ApplicationMonitor.TC027_ApplicationUsageUploadData -->
+      <class name="Module.RegionalSetup.TC007_CountryMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC007_CountryMasterUploadData -->
+      <class name="Module.GeneralSetup.TC006_PollQuizSetupUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC006_PollQuizSetupUploadData -->
+      <class name="Module.OrganizationalSetup.TC016_SubDepartmentMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC016_SubDepartmentMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC022_ZoneMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC022_ZoneMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC023_AttributeMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC023_AttributeMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC021_BankMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC021_BankMasterUploadData -->
+      <class name="Module.GeneralSetup.TC005_PolicyMasterAccessUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC005_PolicyMasterAccessUploadData -->
+      <class name="Module.OrganizationalSetup.TC014_DivisionMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="AddNew_Button"/>
+          <include name="Target_Page"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="Login"/>
+          <include name="beforeMethod"/>
+          <include name="Data_Upload"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC014_DivisionMasterUploadData -->
+      <class name="Module.GeneralSetup.TC002_OrganizationalUnitUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC002_OrganizationalUnitUploadData -->
+      <class name="Module.ApplicationMonitor.TC026_ParameterGroupMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.ApplicationMonitor.TC026_ParameterGroupMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC017_CostCenterMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC017_CostCenterMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC013_BranchMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC013_BranchMasterUploadData -->
+      <class name="Module.GeneralSetup.TC004_PolicyMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC004_PolicyMasterUploadData -->
+      <class name="Module.RegionalSetup.TC012_CurrencyRateMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC012_CurrencyRateMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC015_DepartmentMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC015_DepartmentMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC020_BandMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC020_BandMasterUploadData -->
+      <class name="Module.RegionalSetup.TC010_NationalityMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC010_NationalityMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC018_PositionMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC018_PositionMasterUploadData -->
+    </classes>
+  </test> <!-- Division Master(failed) -->
+  <test name="Department Master(failed)" parallel="tests">
+    <classes>
+      <class name="Module.GeneralSetup.TC003_UploadMaster">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC003_UploadMaster -->
+      <class name="Module.RegionalSetup.TC011_CurrencyMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC011_CurrencyMasterUploadData -->
+      <class name="Module.GeneralSetup.TC001_EntityMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC001_EntityMasterUploadData -->
+      <class name="Module.RegionalSetup.TC008_StateMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC008_StateMasterUploadData -->
+      <class name="Module.RegionalSetup.TC009_CityMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC009_CityMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC025_PositionMappingUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC025_PositionMappingUploadData -->
+      <class name="Module.OrganizationalSetup.TC024_DeviceMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC024_DeviceMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC019_LevelMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC019_LevelMasterUploadData -->
+      <class name="Module.ApplicationMonitor.TC027_ApplicationUsageUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.ApplicationMonitor.TC027_ApplicationUsageUploadData -->
+      <class name="Module.RegionalSetup.TC007_CountryMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC007_CountryMasterUploadData -->
+      <class name="Module.GeneralSetup.TC006_PollQuizSetupUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC006_PollQuizSetupUploadData -->
+      <class name="Module.OrganizationalSetup.TC016_SubDepartmentMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC016_SubDepartmentMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC022_ZoneMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC022_ZoneMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC023_AttributeMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC023_AttributeMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC021_BankMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC021_BankMasterUploadData -->
+      <class name="Module.GeneralSetup.TC005_PolicyMasterAccessUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC005_PolicyMasterAccessUploadData -->
+      <class name="Module.GeneralSetup.TC002_OrganizationalUnitUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC002_OrganizationalUnitUploadData -->
+      <class name="Module.OrganizationalSetup.TC014_DivisionMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC014_DivisionMasterUploadData -->
+      <class name="Module.ApplicationMonitor.TC026_ParameterGroupMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.ApplicationMonitor.TC026_ParameterGroupMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC017_CostCenterMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC017_CostCenterMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC013_BranchMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC013_BranchMasterUploadData -->
+      <class name="Module.GeneralSetup.TC004_PolicyMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC004_PolicyMasterUploadData -->
+      <class name="Module.RegionalSetup.TC012_CurrencyRateMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC012_CurrencyRateMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC015_DepartmentMasterUploadData">
+        <methods>
+          <include name="Target_Page"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="Edit_Record"/>
+          <include name="Login"/>
+          <include name="AddNew_Button"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="Data_Upload"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC015_DepartmentMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC020_BandMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC020_BandMasterUploadData -->
+      <class name="Module.RegionalSetup.TC010_NationalityMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC010_NationalityMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC018_PositionMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC018_PositionMasterUploadData -->
+    </classes>
+  </test> <!-- Department Master(failed) -->
+  <test name="Sub Department Master(failed)" parallel="tests">
+    <classes>
+      <class name="Module.GeneralSetup.TC003_UploadMaster">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC003_UploadMaster -->
+      <class name="Module.RegionalSetup.TC011_CurrencyMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC011_CurrencyMasterUploadData -->
+      <class name="Module.GeneralSetup.TC001_EntityMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC001_EntityMasterUploadData -->
+      <class name="Module.RegionalSetup.TC008_StateMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC008_StateMasterUploadData -->
+      <class name="Module.RegionalSetup.TC009_CityMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC009_CityMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC025_PositionMappingUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC025_PositionMappingUploadData -->
+      <class name="Module.OrganizationalSetup.TC024_DeviceMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC024_DeviceMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC019_LevelMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC019_LevelMasterUploadData -->
+      <class name="Module.ApplicationMonitor.TC027_ApplicationUsageUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.ApplicationMonitor.TC027_ApplicationUsageUploadData -->
+      <class name="Module.RegionalSetup.TC007_CountryMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC007_CountryMasterUploadData -->
+      <class name="Module.GeneralSetup.TC006_PollQuizSetupUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC006_PollQuizSetupUploadData -->
+      <class name="Module.OrganizationalSetup.TC016_SubDepartmentMasterUploadData">
+        <methods>
+          <include name="Target_Page"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="AddNew_Button"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="Edit_Record"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC016_SubDepartmentMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC022_ZoneMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC022_ZoneMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC023_AttributeMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC023_AttributeMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC021_BankMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC021_BankMasterUploadData -->
+      <class name="Module.GeneralSetup.TC005_PolicyMasterAccessUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC005_PolicyMasterAccessUploadData -->
+      <class name="Module.GeneralSetup.TC002_OrganizationalUnitUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC002_OrganizationalUnitUploadData -->
+      <class name="Module.OrganizationalSetup.TC014_DivisionMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC014_DivisionMasterUploadData -->
+      <class name="Module.ApplicationMonitor.TC026_ParameterGroupMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.ApplicationMonitor.TC026_ParameterGroupMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC017_CostCenterMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC017_CostCenterMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC013_BranchMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC013_BranchMasterUploadData -->
+      <class name="Module.GeneralSetup.TC004_PolicyMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC004_PolicyMasterUploadData -->
+      <class name="Module.RegionalSetup.TC012_CurrencyRateMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC012_CurrencyRateMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC015_DepartmentMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC015_DepartmentMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC020_BandMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC020_BandMasterUploadData -->
+      <class name="Module.RegionalSetup.TC010_NationalityMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC010_NationalityMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC018_PositionMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC018_PositionMasterUploadData -->
+    </classes>
+  </test> <!-- Sub Department Master(failed) -->
+  <test name="Cost Center Master(failed)" parallel="tests">
+    <classes>
+      <class name="Module.GeneralSetup.TC003_UploadMaster">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC003_UploadMaster -->
+      <class name="Module.RegionalSetup.TC011_CurrencyMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC011_CurrencyMasterUploadData -->
+      <class name="Module.GeneralSetup.TC001_EntityMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC001_EntityMasterUploadData -->
+      <class name="Module.RegionalSetup.TC008_StateMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC008_StateMasterUploadData -->
+      <class name="Module.RegionalSetup.TC009_CityMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC009_CityMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC025_PositionMappingUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC025_PositionMappingUploadData -->
+      <class name="Module.OrganizationalSetup.TC024_DeviceMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC024_DeviceMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC019_LevelMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC019_LevelMasterUploadData -->
+      <class name="Module.ApplicationMonitor.TC027_ApplicationUsageUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.ApplicationMonitor.TC027_ApplicationUsageUploadData -->
+      <class name="Module.RegionalSetup.TC007_CountryMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC007_CountryMasterUploadData -->
+      <class name="Module.GeneralSetup.TC006_PollQuizSetupUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC006_PollQuizSetupUploadData -->
+      <class name="Module.OrganizationalSetup.TC016_SubDepartmentMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC016_SubDepartmentMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC022_ZoneMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC022_ZoneMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC023_AttributeMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC023_AttributeMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC021_BankMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC021_BankMasterUploadData -->
+      <class name="Module.GeneralSetup.TC005_PolicyMasterAccessUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC005_PolicyMasterAccessUploadData -->
+      <class name="Module.GeneralSetup.TC002_OrganizationalUnitUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC002_OrganizationalUnitUploadData -->
+      <class name="Module.OrganizationalSetup.TC014_DivisionMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC014_DivisionMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC017_CostCenterMasterUploadData">
+        <methods>
+          <include name="Edit_Record"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="Login"/>
+          <include name="setUp"/>
+          <include name="Target_Page"/>
+          <include name="Data_Upload"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="AddNew_Button"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC017_CostCenterMasterUploadData -->
+      <class name="Module.ApplicationMonitor.TC026_ParameterGroupMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.ApplicationMonitor.TC026_ParameterGroupMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC013_BranchMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC013_BranchMasterUploadData -->
+      <class name="Module.GeneralSetup.TC004_PolicyMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC004_PolicyMasterUploadData -->
+      <class name="Module.RegionalSetup.TC012_CurrencyRateMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC012_CurrencyRateMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC015_DepartmentMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC015_DepartmentMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC020_BandMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC020_BandMasterUploadData -->
+      <class name="Module.RegionalSetup.TC010_NationalityMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC010_NationalityMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC018_PositionMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC018_PositionMasterUploadData -->
+    </classes>
+  </test> <!-- Cost Center Master(failed) -->
+  <test name="Bank Master(failed)" parallel="tests">
+    <classes>
+      <class name="Module.GeneralSetup.TC003_UploadMaster">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC003_UploadMaster -->
+      <class name="Module.RegionalSetup.TC011_CurrencyMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC011_CurrencyMasterUploadData -->
+      <class name="Module.GeneralSetup.TC001_EntityMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC001_EntityMasterUploadData -->
+      <class name="Module.RegionalSetup.TC008_StateMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC008_StateMasterUploadData -->
+      <class name="Module.RegionalSetup.TC009_CityMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC009_CityMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC025_PositionMappingUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC025_PositionMappingUploadData -->
+      <class name="Module.OrganizationalSetup.TC024_DeviceMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC024_DeviceMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC019_LevelMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC019_LevelMasterUploadData -->
+      <class name="Module.ApplicationMonitor.TC027_ApplicationUsageUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.ApplicationMonitor.TC027_ApplicationUsageUploadData -->
+      <class name="Module.RegionalSetup.TC007_CountryMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC007_CountryMasterUploadData -->
+      <class name="Module.GeneralSetup.TC006_PollQuizSetupUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC006_PollQuizSetupUploadData -->
+      <class name="Module.OrganizationalSetup.TC016_SubDepartmentMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC016_SubDepartmentMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC022_ZoneMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC022_ZoneMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC023_AttributeMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC023_AttributeMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC021_BankMasterUploadData">
+        <methods>
+          <include name="Edit_Record"/>
+          <include name="afterMethod"/>
+          <include name="Target_Page"/>
+          <include name="endTest"/>
+          <include name="AddNew_Button"/>
+          <include name="Data_Upload" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="Login"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC021_BankMasterUploadData -->
+      <class name="Module.GeneralSetup.TC005_PolicyMasterAccessUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC005_PolicyMasterAccessUploadData -->
+      <class name="Module.GeneralSetup.TC002_OrganizationalUnitUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC002_OrganizationalUnitUploadData -->
+      <class name="Module.OrganizationalSetup.TC014_DivisionMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC014_DivisionMasterUploadData -->
+      <class name="Module.ApplicationMonitor.TC026_ParameterGroupMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.ApplicationMonitor.TC026_ParameterGroupMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC017_CostCenterMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC017_CostCenterMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC013_BranchMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC013_BranchMasterUploadData -->
+      <class name="Module.GeneralSetup.TC004_PolicyMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC004_PolicyMasterUploadData -->
+      <class name="Module.RegionalSetup.TC012_CurrencyRateMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC012_CurrencyRateMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC015_DepartmentMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC015_DepartmentMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC020_BandMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC020_BandMasterUploadData -->
+      <class name="Module.RegionalSetup.TC010_NationalityMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC010_NationalityMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC018_PositionMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC018_PositionMasterUploadData -->
+    </classes>
+  </test> <!-- Bank Master(failed) -->
+  <test name="Position Mapping(failed)" parallel="tests">
+    <classes>
+      <class name="Module.GeneralSetup.TC003_UploadMaster">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC003_UploadMaster -->
+      <class name="Module.RegionalSetup.TC011_CurrencyMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC011_CurrencyMasterUploadData -->
+      <class name="Module.GeneralSetup.TC001_EntityMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC001_EntityMasterUploadData -->
+      <class name="Module.RegionalSetup.TC008_StateMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC008_StateMasterUploadData -->
+      <class name="Module.RegionalSetup.TC009_CityMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC009_CityMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC025_PositionMappingUploadData">
+        <methods>
+          <include name="AddNew_Button"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="Target_Page"/>
+          <include name="setUp"/>
+          <include name="Login"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="Edit_Record"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC025_PositionMappingUploadData -->
+      <class name="Module.OrganizationalSetup.TC024_DeviceMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC024_DeviceMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC019_LevelMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC019_LevelMasterUploadData -->
+      <class name="Module.ApplicationMonitor.TC027_ApplicationUsageUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.ApplicationMonitor.TC027_ApplicationUsageUploadData -->
+      <class name="Module.RegionalSetup.TC007_CountryMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC007_CountryMasterUploadData -->
+      <class name="Module.GeneralSetup.TC006_PollQuizSetupUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC006_PollQuizSetupUploadData -->
+      <class name="Module.OrganizationalSetup.TC016_SubDepartmentMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC016_SubDepartmentMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC022_ZoneMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC022_ZoneMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC023_AttributeMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC023_AttributeMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC021_BankMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC021_BankMasterUploadData -->
+      <class name="Module.GeneralSetup.TC005_PolicyMasterAccessUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC005_PolicyMasterAccessUploadData -->
+      <class name="Module.GeneralSetup.TC002_OrganizationalUnitUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC002_OrganizationalUnitUploadData -->
+      <class name="Module.OrganizationalSetup.TC014_DivisionMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC014_DivisionMasterUploadData -->
+      <class name="Module.ApplicationMonitor.TC026_ParameterGroupMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.ApplicationMonitor.TC026_ParameterGroupMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC017_CostCenterMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC017_CostCenterMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC013_BranchMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC013_BranchMasterUploadData -->
+      <class name="Module.GeneralSetup.TC004_PolicyMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC004_PolicyMasterUploadData -->
+      <class name="Module.RegionalSetup.TC012_CurrencyRateMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC012_CurrencyRateMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC015_DepartmentMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC015_DepartmentMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC020_BandMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC020_BandMasterUploadData -->
+      <class name="Module.RegionalSetup.TC010_NationalityMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC010_NationalityMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC018_PositionMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC018_PositionMasterUploadData -->
+    </classes>
+  </test> <!-- Position Mapping(failed) -->
+  <test name="Parameter Group Master(failed)" parallel="tests">
+    <classes>
+      <class name="Module.GeneralSetup.TC003_UploadMaster">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC003_UploadMaster -->
+      <class name="Module.RegionalSetup.TC011_CurrencyMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC011_CurrencyMasterUploadData -->
+      <class name="Module.GeneralSetup.TC001_EntityMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC001_EntityMasterUploadData -->
+      <class name="Module.RegionalSetup.TC008_StateMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC008_StateMasterUploadData -->
+      <class name="Module.RegionalSetup.TC009_CityMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC009_CityMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC025_PositionMappingUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC025_PositionMappingUploadData -->
+      <class name="Module.OrganizationalSetup.TC024_DeviceMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC024_DeviceMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC019_LevelMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC019_LevelMasterUploadData -->
+      <class name="Module.ApplicationMonitor.TC027_ApplicationUsageUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.ApplicationMonitor.TC027_ApplicationUsageUploadData -->
+      <class name="Module.RegionalSetup.TC007_CountryMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC007_CountryMasterUploadData -->
+      <class name="Module.GeneralSetup.TC006_PollQuizSetupUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC006_PollQuizSetupUploadData -->
+      <class name="Module.OrganizationalSetup.TC016_SubDepartmentMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC016_SubDepartmentMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC022_ZoneMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC022_ZoneMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC023_AttributeMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC023_AttributeMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC021_BankMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC021_BankMasterUploadData -->
+      <class name="Module.GeneralSetup.TC005_PolicyMasterAccessUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC005_PolicyMasterAccessUploadData -->
+      <class name="Module.GeneralSetup.TC002_OrganizationalUnitUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC002_OrganizationalUnitUploadData -->
+      <class name="Module.OrganizationalSetup.TC014_DivisionMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC014_DivisionMasterUploadData -->
+      <class name="Module.ApplicationMonitor.TC026_ParameterGroupMasterUploadData">
+        <methods>
+          <include name="Edit_Record"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="Login"/>
+          <include name="setUp"/>
+          <include name="Target_Page"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="AddNew_Button"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.ApplicationMonitor.TC026_ParameterGroupMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC017_CostCenterMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC017_CostCenterMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC013_BranchMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC013_BranchMasterUploadData -->
+      <class name="Module.GeneralSetup.TC004_PolicyMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC004_PolicyMasterUploadData -->
+      <class name="Module.RegionalSetup.TC012_CurrencyRateMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC012_CurrencyRateMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC015_DepartmentMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC015_DepartmentMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC020_BandMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC020_BandMasterUploadData -->
+      <class name="Module.RegionalSetup.TC010_NationalityMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC010_NationalityMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC018_PositionMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC018_PositionMasterUploadData -->
+    </classes>
+  </test> <!-- Parameter Group Master(failed) -->
+  <test name="Application Usage(failed)" parallel="tests">
+    <classes>
+      <class name="Module.GeneralSetup.TC003_UploadMaster">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC003_UploadMaster -->
+      <class name="Module.RegionalSetup.TC011_CurrencyMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC011_CurrencyMasterUploadData -->
+      <class name="Module.GeneralSetup.TC001_EntityMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC001_EntityMasterUploadData -->
+      <class name="Module.RegionalSetup.TC008_StateMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC008_StateMasterUploadData -->
+      <class name="Module.RegionalSetup.TC009_CityMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC009_CityMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC025_PositionMappingUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC025_PositionMappingUploadData -->
+      <class name="Module.OrganizationalSetup.TC024_DeviceMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC024_DeviceMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC019_LevelMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC019_LevelMasterUploadData -->
+      <class name="Module.ApplicationMonitor.TC027_ApplicationUsageUploadData">
+        <methods>
+          <include name="Edit_Record"/>
+          <include name="afterMethod"/>
+          <include name="Login"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="Target_Page"/>
+          <include name="Data_Upload" invocation-numbers="0"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="AddNew_Button"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.ApplicationMonitor.TC027_ApplicationUsageUploadData -->
+      <class name="Module.RegionalSetup.TC007_CountryMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC007_CountryMasterUploadData -->
+      <class name="Module.GeneralSetup.TC006_PollQuizSetupUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC006_PollQuizSetupUploadData -->
+      <class name="Module.OrganizationalSetup.TC016_SubDepartmentMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC016_SubDepartmentMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC022_ZoneMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC022_ZoneMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC023_AttributeMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC023_AttributeMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC021_BankMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC021_BankMasterUploadData -->
+      <class name="Module.GeneralSetup.TC005_PolicyMasterAccessUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC005_PolicyMasterAccessUploadData -->
+      <class name="Module.GeneralSetup.TC002_OrganizationalUnitUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC002_OrganizationalUnitUploadData -->
+      <class name="Module.OrganizationalSetup.TC014_DivisionMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC014_DivisionMasterUploadData -->
+      <class name="Module.ApplicationMonitor.TC026_ParameterGroupMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.ApplicationMonitor.TC026_ParameterGroupMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC017_CostCenterMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC017_CostCenterMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC013_BranchMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC013_BranchMasterUploadData -->
+      <class name="Module.GeneralSetup.TC004_PolicyMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.GeneralSetup.TC004_PolicyMasterUploadData -->
+      <class name="Module.RegionalSetup.TC012_CurrencyRateMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC012_CurrencyRateMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC015_DepartmentMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC015_DepartmentMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC020_BandMasterUploadData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC020_BandMasterUploadData -->
+      <class name="Module.RegionalSetup.TC010_NationalityMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.RegionalSetup.TC010_NationalityMasterUploadData -->
+      <class name="Module.OrganizationalSetup.TC018_PositionMasterUploadData">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.OrganizationalSetup.TC018_PositionMasterUploadData -->
+    </classes>
+  </test> <!-- Application Usage(failed) -->
+</suite> <!-- Failed suite [Regression Testing] -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Policy Master Access"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="144.689">
+  <properties />
+  
+  
+            <testcase name="Target_Page" time="109.864" classname="Module.GeneralSetup.TC005_PolicyMasterAccessUploadData" />
+                <testcase name="Login" time="1.202" classname="Module.GeneralSetup.TC005_PolicyMasterAccessUploadData" />
+                <testcase name="AddNew_Button" time="9.812" classname="Module.GeneralSetup.TC005_PolicyMasterAccessUploadData" />
+                <testcase name="Data_Upload" time="23.811" classname="Module.GeneralSetup.TC005_PolicyMasterAccessUploadData" />
+      
+</testsuite>

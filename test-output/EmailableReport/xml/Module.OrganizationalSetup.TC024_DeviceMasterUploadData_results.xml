@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Device Master"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="216.953">
+  <properties />
+  
+  
+            <testcase name="Login" time="1.351" classname="Module.OrganizationalSetup.TC024_DeviceMasterUploadData" />
+                <testcase name="Edit_Record" time="8.014" classname="Module.OrganizationalSetup.TC024_DeviceMasterUploadData" />
+                <testcase name="AddNew_Button" time="3.199" classname="Module.OrganizationalSetup.TC024_DeviceMasterUploadData" />
+                <testcase name="Data_Upload" time="10.434" classname="Module.OrganizationalSetup.TC024_DeviceMasterUploadData" />
+                <testcase name="Target_Page" time="193.955" classname="Module.OrganizationalSetup.TC024_DeviceMasterUploadData" />
+      
+</testsuite>

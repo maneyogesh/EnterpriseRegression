@@ -1,0 +1,401 @@
+<html>
+<head>
+<title>TestNG:  Basic Salary Range</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Basic Salary Range</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/7/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Aug 09 18:49:07 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>86 seconds (86879 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='pom.test.UIAction.TC002_VerifyRegistration.verifyRegistration()'><b>verifyRegistration</b><br>Test class: pom.test.UIAction.TC002_VerifyRegistration<br>Parameters: superadmin, Adm@APR17, y<br/>
+<a href="#Output-29115893" onClick='toggleBox("Output-29115893", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-29115893" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-29115893">
+login successfully<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [Onex Software 1] but found [Onex Software]
+	at pom.test.UIAction.TC002_VerifyRegistration.verifyRegistration(TC002_VerifyRegistration.java:102)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace29115893", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace29115893'><pre>java.lang.AssertionError: expected [Onex Software 1] but found [Onex Software]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at pom.test.UIAction.TC002_VerifyRegistration.verifyRegistration(TC002_VerifyRegistration.java:102)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:391)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>10</td>
+<td>pom.test.UIAction.TC002_VerifyRegistration@78a03f</td></tr>
+<tr>
+<td title='pom.test.UIAction.TC002_VerifyRegistration.verifyRegistration()'><b>verifyRegistration</b><br>Test class: pom.test.UIAction.TC002_VerifyRegistration<br>Parameters: superadmin, Adm@APR17, y<br/>
+<a href="#Output-8495414" onClick='toggleBox("Output-8495414", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-8495414" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-8495414">
+login successfully<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [Onex Software 1] but found [Onex Software]
+	at pom.test.UIAction.TC002_VerifyRegistration.verifyRegistration(TC002_VerifyRegistration.java:102)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace8495414", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace8495414'><pre>java.lang.AssertionError: expected [Onex Software 1] but found [Onex Software]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at pom.test.UIAction.TC002_VerifyRegistration.verifyRegistration(TC002_VerifyRegistration.java:102)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:391)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>9</td>
+<td>pom.test.UIAction.TC002_VerifyRegistration@78a03f</td></tr>
+<tr>
+<td title='pom.test.UIAction.TC002_VerifyRegistration.verifyRegistration()'><b>verifyRegistration</b><br>Test class: pom.test.UIAction.TC002_VerifyRegistration<br>Parameters: superadmin, Adm@APR17, n<br/>
+<a href="#Output-27870970" onClick='toggleBox("Output-27870970", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-27870970" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-27870970">
+login successfully<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [Onex Software 1] but found [Onex Software]
+	at pom.test.UIAction.TC002_VerifyRegistration.verifyRegistration(TC002_VerifyRegistration.java:102)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace27870970", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace27870970'><pre>java.lang.AssertionError: expected [Onex Software 1] but found [Onex Software]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at pom.test.UIAction.TC002_VerifyRegistration.verifyRegistration(TC002_VerifyRegistration.java:102)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:391)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>8</td>
+<td>pom.test.UIAction.TC002_VerifyRegistration@78a03f</td></tr>
+<tr>
+<td title='pom.test.UIAction.TC002_VerifyRegistration.verifyRegistration()'><b>verifyRegistration</b><br>Test class: pom.test.UIAction.TC002_VerifyRegistration<br>Parameters: superadmin, Adm@APR17, n<br/>
+<a href="#Output-12055873" onClick='toggleBox("Output-12055873", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-12055873" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-12055873">
+login successfully<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [Onex Software 1] but found [Onex Software]
+	at pom.test.UIAction.TC002_VerifyRegistration.verifyRegistration(TC002_VerifyRegistration.java:102)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace12055873", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace12055873'><pre>java.lang.AssertionError: expected [Onex Software 1] but found [Onex Software]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at pom.test.UIAction.TC002_VerifyRegistration.verifyRegistration(TC002_VerifyRegistration.java:102)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:391)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>9</td>
+<td>pom.test.UIAction.TC002_VerifyRegistration@78a03f</td></tr>
+<tr>
+<td title='pom.test.UIAction.TC002_VerifyRegistration.verifyRegistration()'><b>verifyRegistration</b><br>Test class: pom.test.UIAction.TC002_VerifyRegistration<br>Parameters: superadmin, Adm@APR17, n<br/>
+<a href="#Output-20917338" onClick='toggleBox("Output-20917338", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-20917338" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-20917338">
+login successfully<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [Onex Software 1] but found [Onex Software]
+	at pom.test.UIAction.TC002_VerifyRegistration.verifyRegistration(TC002_VerifyRegistration.java:102)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace20917338", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace20917338'><pre>java.lang.AssertionError: expected [Onex Software 1] but found [Onex Software]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at pom.test.UIAction.TC002_VerifyRegistration.verifyRegistration(TC002_VerifyRegistration.java:102)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:391)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>10</td>
+<td>pom.test.UIAction.TC002_VerifyRegistration@78a03f</td></tr>
+<tr>
+<td title='pom.test.UIAction.TC002_VerifyRegistration.verifyRegistration()'><b>verifyRegistration</b><br>Test class: pom.test.UIAction.TC002_VerifyRegistration<br>Parameters: superadmin, Adm@APR17, n<br/>
+<a href="#Output-3550136" onClick='toggleBox("Output-3550136", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-3550136" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-3550136">
+login successfully<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [Onex Software 1] but found [Onex Software]
+	at pom.test.UIAction.TC002_VerifyRegistration.verifyRegistration(TC002_VerifyRegistration.java:102)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace3550136", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace3550136'><pre>java.lang.AssertionError: expected [Onex Software 1] but found [Onex Software]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at pom.test.UIAction.TC002_VerifyRegistration.verifyRegistration(TC002_VerifyRegistration.java:102)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:391)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>10</td>
+<td>pom.test.UIAction.TC002_VerifyRegistration@78a03f</td></tr>
+<tr>
+<td title='pom.test.UIAction.TC002_VerifyRegistration.verifyRegistration()'><b>verifyRegistration</b><br>Test class: pom.test.UIAction.TC002_VerifyRegistration<br>Parameters: superadmin, Adm@APR17, y<br/>
+<a href="#Output-2371139" onClick='toggleBox("Output-2371139", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2371139" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2371139">
+login successfully<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [Onex Software 1] but found [Onex Software]
+	at pom.test.UIAction.TC002_VerifyRegistration.verifyRegistration(TC002_VerifyRegistration.java:102)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2371139", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2371139'><pre>java.lang.AssertionError: expected [Onex Software 1] but found [Onex Software]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at pom.test.UIAction.TC002_VerifyRegistration.verifyRegistration(TC002_VerifyRegistration.java:102)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:391)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>9</td>
+<td>pom.test.UIAction.TC002_VerifyRegistration@78a03f</td></tr>
+</table><p>
+</body>
+</html>

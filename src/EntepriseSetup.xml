@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Testing" parallel="tests" thread-count="1" >
+        
+ <listeners>  
+ <listener class-name="pom.CustomListner.Listener"/>   
+<!--  <listener class-name="pom.CustomListner.Listeners"/>   -->   
+ <listener class-name="org.uncommons.reportng.HTMLReporter" />
+ <listener class-name="org.uncommons.reportng.JUnitXMLReporter" /> 
+ </listeners>  
+            
+ <parameter name="browserType" value="firefox"/>
+ 
+  <test name="Entity Master">
+    <classes>
+      <class name="Module.GeneralSetup.TC001_EntityMasterUploadData"/>
+      </classes>
+   </test>   
+
+   <test name="Organizational Unit Master">
+    <classes>
+      <class name="Module.GeneralSetup.TC002_OrganizationalUnitUploadData"/>
+      </classes>
+   </test>   
+   
+  <test name="Upload Master">
+    <classes>
+      <class name="Module.GeneralSetup.TC003_UploadMaster"/>
+      </classes>
+   </test>   
+ 
+    <test name="Policy Master">
+    <classes>
+      <class name="Module.GeneralSetup.TC004_PolicyMasterUploadData"/>
+      </classes>
+   </test>    
+ 
+<test name="Policy Master Access">
+    <classes>
+      <class name="Module.GeneralSetup.TC005_PolicyMasterAccessUploadData"/>
+      </classes>
+   </test>    
+  
+    <test name="Poll Quiz Setup">
+    <classes>
+      <class name="Module.GeneralSetup.TC006_PollQuizSetupUploadData"/>
+      </classes>
+   </test>   
+   
+  <test name="Country Master">
+    <classes>
+      <class name="Module.RegionalSetup.TC007_CountryMasterUploadData"/>
+      </classes>
+   </test> 
+   
+   <test name="State Master">
+    <classes>
+      <class name="Module.RegionalSetup.TC008_StateMasterUploadData"/>
+      </classes>
+   </test>   
+    
+   <test name="City Master">
+    <classes>
+      <class name="Module.RegionalSetup.TC009_CityMasterUploadData"/>
+      </classes>
+   </test>    
+   
+       <test name="Nationality Master">
+    <classes>
+      <class name="Module.RegionalSetup.TC010_NationalityMasterUploadData"/>
+      </classes>
+   </test>  
+   
+    <test name="Currency Master">
+    <classes>
+      <class name="Module.RegionalSetup.TC011_CurrencyMasterUploadData"/>
+      </classes>
+   </test>    
+   
+    <test name="Currency rate Master">
+    <classes>
+      <class name="Module.RegionalSetup.TC012_CurrencyRateMasterUploadData"/>
+      </classes>
+   </test>    
+   
+   <test name="Branch Master">
+    <classes>
+      <class name="Module.OrganizationalSetup.TC013_BranchMasterUploadData"/>
+      </classes>
+   </test>    
+   
+    <test name="Division Master">
+    <classes>
+      <class name="Module.OrganizationalSetup.TC014_DivisionMasterUploadData"/>
+      </classes>
+   </test>  
+    
+   <test name="Department Master">
+    <classes>
+      <class name="Module.OrganizationalSetup.TC015_DepartmentMasterUploadData"/>
+      </classes>
+   </test>  
+   
+   <test name="Sub Department Master">
+    <classes>
+      <class name="Module.OrganizationalSetup.TC016_SubDepartmentMasterUploadData"/>
+      </classes>
+   </test>  
+   
+  <test name="Cost Center Master">
+    <classes>
+      <class name="Module.OrganizationalSetup.TC017_CostCenterMasterUploadData"/>
+      </classes>
+   </test>   
+   
+   <test name="Position Master">
+    <classes>
+      <class name="Module.OrganizationalSetup.TC018_PositionMasterUploadData"/>
+      </classes>
+   </test>   
+   
+   <test name="Level Master">
+    <classes>
+      <class name="Module.OrganizationalSetup.TC019_LevelMasterUploadData"/>
+      </classes>
+   </test>  
+   
+       <test name="Band Master">
+    <classes>
+      <class name="Module.OrganizationalSetup.TC020_BandMasterUploadData"/>
+      </classes>
+   </test>  
+   
+    <test name="Bank Master">
+    <classes>
+      <class name="Module.OrganizationalSetup.TC021_BankMasterUploadData"/>
+      </classes>
+   </test>  
+   
+    <test name="Zone Master">
+    <classes>
+      <class name="Module.OrganizationalSetup.TC022_ZoneMasterUploadData"/>
+      </classes>
+   </test>  
+   
+  <test name="Attribute Master">
+    <classes>
+      <class name="Module.OrganizationalSetup.TC023_AttributeMasterUploadData"/>
+      </classes>
+   </test>  
+   
+    <test name="Device Master">
+    <classes>
+      <class name="Module.OrganizationalSetup.TC024_DeviceMasterUploadData"/>
+      </classes>
+   </test>  
+   
+  <test name="Position Mapping">
+    <classes>
+      <class name="Module.OrganizationalSetup.TC025_PositionMappingUploadData"/>
+      </classes>
+   </test>  
+   
+      <test name="Parameter Group Master">
+    <classes>
+      <class name="Module.ApplicationMonitor.TC026_ParameterGroupMasterUploadData"/>
+      </classes>
+   </test>  
+   
+     <test name="Application Usage">
+    <classes>
+      <class name="Module.ApplicationMonitor.TC027_ApplicationUsageUploadData"/>
+      </classes>
+   </test>  
+ 
+    </suite> 
+      
